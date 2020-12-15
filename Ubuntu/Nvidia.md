@@ -2,13 +2,13 @@
 title: Nvidia Driver
 description: 
 published: true
-date: 2020-12-15T20:02:09.512Z
+date: 2020-12-15T20:02:25.065Z
 tags: vga, nvidia, gpu, driver
 editor: markdown
 dateCreated: 2020-12-15T19:46:35.830Z
 ---
 
-# installasi GUI
+# instalasi GUI
 lebih mudah menggunakan GUI
 
 buka
@@ -28,7 +28,7 @@ lalu restart
 atau
 <kbd>sudo reboot</kbd>
 
-# installasi CLI
+# instalasi CLI
 tapi ini lebih mudah :smile:
 
 <kbd>sudo Ubuntu-drivers devices</kbd>
