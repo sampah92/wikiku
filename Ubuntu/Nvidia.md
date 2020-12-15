@@ -2,7 +2,7 @@
 title: Nvidia Driver: install
 description: 
 published: true
-date: 2020-12-15T19:56:35.445Z
+date: 2020-12-15T20:00:46.789Z
 tags: vga, nvidia, gpu, driver
 editor: markdown
 dateCreated: 2020-12-15T19:46:35.830Z
@@ -12,15 +12,15 @@ dateCreated: 2020-12-15T19:46:35.830Z
 lebih mudah menggunakan GUI
 
 buka
-```mermaid 
-software and updates
-```
-```mermaid 
-pilih driver yang cocok
-```
-```mermaid 
+
+> software and updates
+  pilih driver yang cocok
+
+
 Apply change
-```
+
+
+
 
 lalu restart
 <kbd>sudo shutdown -r now</kbd>
