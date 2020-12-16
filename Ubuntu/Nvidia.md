@@ -2,7 +2,7 @@
 title: Nvidia Driver
 description: 
 published: true
-date: 2020-12-15T20:02:25.065Z
+date: 2020-12-16T02:49:39.520Z
 tags: vga, nvidia, gpu, driver
 editor: markdown
 dateCreated: 2020-12-15T19:46:35.830Z
@@ -13,14 +13,9 @@ lebih mudah menggunakan GUI
 
 buka
 
-> software and updates
-
-> pilih driver yang cocok
-
-
-> Apply change
-
-
+`software and updates`
+`pilih driver yang cocok`
+`Apply change`
 
 
 lalu restart
