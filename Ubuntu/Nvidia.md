@@ -1,8 +1,8 @@
 ---
 title: Nvidia Driver
-description: 
+description: menginstall GPU Driver pada Ubuntu
 published: true
-date: 2020-12-16T02:49:39.520Z
+date: 2020-12-17T12:57:27.648Z
 tags: vga, nvidia, gpu, driver
 editor: markdown
 dateCreated: 2020-12-15T19:46:35.830Z
