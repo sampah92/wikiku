@@ -2,12 +2,14 @@
 title: Email forward dan sender
 description: menggunakan akun Gmail sebagai sender dan forwarder dari custom domain
 published: true
-date: 2020-12-18T20:29:53.473Z
+date: 2020-12-18T20:41:24.508Z
 tags: email, custom domain, hosting, gmail, improvmx
 editor: markdown
 dateCreated: 2020-12-18T20:26:02.631Z
 ---
 
+# ImprovMX
+ImprovMX dibangun dan diluncurkan oleh `Alexander Tereshkin` sebagai cara untuk mengatur Forward  dan sender email dengan tanpa hosting mandiri ataupun berbayar. ada berbagai fitur premium dari [ImprovMX](https://improvmx.com) dengan harga yang terjangkau, namun yang gratis pun sudah memuaskan.  
 # Forward email
 Pastikan sudah memiliki custom domain.
 - masukan custom domain yang akan diforward ke akun Gmail.
