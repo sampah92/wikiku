@@ -2,8 +2,8 @@
 title: Dota 2
 description: menginstall Dota 2 pada OS Ubuntu
 published: true
-date: 2020-12-17T12:55:53.697Z
-tags: vga, gpu, dota 2
+date: 2020-12-18T14:54:37.326Z
+tags: vga, gpu, dota 2, game
 editor: markdown
 dateCreated: 2020-12-16T12:34:28.171Z
 ---
