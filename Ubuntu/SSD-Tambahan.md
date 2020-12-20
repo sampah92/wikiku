@@ -1,15 +1,11 @@
 ---
 title: SSD Ubuntu
-description: Merubah permission Drive pada Ubuntu
+description: Merubah permission Drive pada Ubuntu 20.04
 published: true
-date: 2020-12-20T11:15:14.076Z
-tags: ssd, ubuntu, permission
+date: 2020-12-20T11:27:39.771Z
+tags: ssd, ubuntu, permission, ubuntu 20.04, drive
 editor: markdown
 dateCreated: 2020-12-15T18:01:13.676Z
----
-
-Ditest menggunakan:
-`Ubuntu 20.04`
 ---
 
 # SSD Permission
