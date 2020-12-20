@@ -1,16 +1,13 @@
 ---
 title: Nvidia Driver
-description: menginstall GPU Driver pada Ubuntu
+description: menginstall GPU Driver pada Ubuntu 20.04
 published: true
-date: 2020-12-20T11:13:03.028Z
-tags: vga, nvidia, gpu, driver
+date: 2020-12-20T11:26:53.523Z
+tags: vga, nvidia, gpu, driver, ubuntu 20.04
 editor: markdown
 dateCreated: 2020-12-15T19:46:35.830Z
 ---
 
-Ditest menggunakan:
-`Ubuntu 20.40`
----
 # instalasi GUI
 
 
