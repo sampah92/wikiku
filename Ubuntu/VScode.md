@@ -1,15 +1,11 @@
 ---
 title: Visual Studio Code
-description: menginstall Visual Studio Code di Ubuntu
+description: menginstall Visual Studio Code di Ubuntu 20.04
 published: true
-date: 2020-12-20T11:15:49.625Z
-tags: ubuntu, visual studio code, editor
+date: 2020-12-20T11:28:22.256Z
+tags: ubuntu, visual studio code, editor, ubuntu 20.04
 editor: markdown
 dateCreated: 2020-12-18T14:46:04.150Z
----
-
-Ditest menggunakan:
-`Ubuntu 20.04`
 ---
 
 # Konfigurasi repository
