@@ -2,7 +2,7 @@
 title: Remote origin already exists
 description: kendala dalam push repo ke github
 published: true
-date: 2020-12-22T20:44:10.966Z
+date: 2020-12-22T20:44:22.383Z
 tags: github, ssh, error
 editor: markdown
 dateCreated: 2020-12-22T20:42:51.852Z
@@ -24,7 +24,7 @@ buka di
 ```
 /root/.ssh/id_rsa.pub
 ```
-salin 
+salin ke
 https://github.com/settings/ssh
 # Cara Kedua
 ```
