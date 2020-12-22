@@ -1,9 +1,9 @@
 ---
-title: ImprovMX: Email forward dan sender 
+title: ImprovMX Email forward dan sender 
 description: menggunakan akun Gmail sebagai sender dan forwarder dari custom domain
 published: true
-date: 2020-12-22T01:47:00.819Z
-tags: email, custom domain, hosting, gmail, improvmx
+date: 2020-12-22T15:23:58.967Z
+tags: email, custom domain, hosting, gmail, improvmx, - email
 editor: markdown
 dateCreated: 2020-12-18T20:26:02.631Z
 ---
