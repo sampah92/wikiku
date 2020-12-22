@@ -2,7 +2,7 @@
 title: Visual Studio Code
 description: menginstall Visual Studio Code di Ubuntu 20.04
 published: true
-date: 2020-12-20T11:28:22.256Z
+date: 2020-12-22T14:21:42.153Z
 tags: ubuntu, visual studio code, editor, ubuntu 20.04
 editor: markdown
 dateCreated: 2020-12-18T14:46:04.150Z
@@ -11,26 +11,37 @@ dateCreated: 2020-12-18T14:46:04.150Z
 # Konfigurasi repository
 
 lakukan
-<kbd>sudo apt update</kbd>
+```
+sudo apt update
+```
 
 install package dari microsoft
-<kbd>sudo apt install -y curl apt-transport-https</kbd>
+```
+sudo apt install -y curl apt-transport-https
+```
 
 GPG key microsoft
-<kbd>curl -sSL https://packages.microsoft.com/keys/microsoft.asc -o microsoft.asc</kbd>
-
-<kbd>sudo apt-key add microsoft.asc</kbd>
-
+```
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc -o microsoft.asc
+sudo apt-key add microsoft.asc
+```
 menambah repository microsoft vscode
-<kbd>echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"  | sudo tee /etc/apt/sources.list.d/vscode.list</kbd>
+```
+echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"  | sudo tee /etc/apt/sources.list.d/vscode.list
+```
 
 # Install VScode
 Update repository
-<kbd>sudo apt update</kbd>
-
+```
+sudo apt update
+```
 install vscode
-<kbd>sudo apt install -y code</kbd>
+```
+sudo apt install -y code
+```
 
 # Menjalankan VScode
 jalankan perintah ini pada directory project
-<kbd>code .</kbd>
+```
+code .
+```
