@@ -2,7 +2,7 @@
 title: SSD Ubuntu
 description: Merubah permission Drive pada Ubuntu 20.04
 published: true
-date: 2020-12-20T11:27:39.771Z
+date: 2020-12-22T14:16:37.674Z
 tags: ssd, ubuntu, permission, ubuntu 20.04, drive
 editor: markdown
 dateCreated: 2020-12-15T18:01:13.676Z
@@ -13,11 +13,13 @@ saat menggunakan perintah ini kebetulan berhasil
 
 cari tahu dulu nama Drivenya
 
-<kbd>sudo fdisk -l</kbd>
-
+```
+sudo fdisk -l
+```
 lalu
-
-<kbd>sudo ntfsfix /dev/your_drive</kbd>
+```
+sudo ntfsfix /dev/your_drive
+```
 
 
 
