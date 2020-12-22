@@ -2,7 +2,7 @@
 title: Nvidia Driver
 description: menginstall GPU Driver pada Ubuntu 20.04
 published: true
-date: 2020-12-20T11:26:53.523Z
+date: 2020-12-22T14:14:01.851Z
 tags: vga, nvidia, gpu, driver, ubuntu 20.04
 editor: markdown
 dateCreated: 2020-12-15T19:46:35.830Z
@@ -22,25 +22,35 @@ buka
 
 
 lalu restart
-<kbd>sudo shutdown -r now</kbd>
+```
+sudo shutdown -r now
+```
 atau
-<kbd>sudo reboot</kbd>
+```
+sudo reboot
+```
 
 # instalasi CLI
 tapi ini lebih mudah :smile:
 
-<kbd>sudo Ubuntu-drivers devices</kbd>
-<kbd>sudo ubuntu-drivers autoinstall</kbd>
-<kbd>sudo apt install nvidia-driver-390</kbd>
-
+```
+sudo Ubuntu-drivers devices
+sudo ubuntu-drivers autoinstall
+sudo apt install nvidia-driver-390
+```
 agar mengetahui perbedaanya reboot perangkat
 
-<kbd>sudo shutdown -r now</kbd>
+```
+sudo shutdown -r now
+```
 
 # Verifikasi
 mengetahui hardware yang sudah terinstall
-<kbd>nvidia-smi</kbd>
-
+```
+nvidia-smi
+```
 untuk mengubah beberapa pengaturan
-<kbd>sudo nvidia-settings</kbd>
+```
+sudo nvidia-settings
+```
 
