@@ -1,8 +1,8 @@
 ---
-title: Search Bar
+title: Hugo Search Bar
 description: menambahkan fitur pencarian pada gohugo
 published: true
-date: 2020-12-22T20:15:32.529Z
+date: 2020-12-23T18:35:25.424Z
 tags: website, gohugo, hugo, fuse.js, mark.js
 editor: markdown
 dateCreated: 2020-12-22T20:15:32.529Z
