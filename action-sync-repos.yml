@@ -1,0 +1,23 @@
+on: [push]
+
+jobs:
+  sync-with-gh-page:
+    runs-on: ubuntu-latest
+    name: Sync this repo with GH pages
+    steps:
+    - name: Checkout source repository
+      uses: actions/checkout@v2
+      with:
+        path: source-repo
+    - name: Checkout target repository
+      uses: actions/checkout@v2
+      with:
+        repository: sampah92/wikiku
+        path: sampah92/webku
+        token: ${{ secrets.1f211f60103623183f99c1cb15245c98f39c1151 }}
+    - name: Sync the repo
+      id: sync
+      uses: tomasdelvechio/actions-push-repo-to-subdir@v1.2.0
+      with:
+        github-username: sampah92
+        target-subdir-name: content/posts
