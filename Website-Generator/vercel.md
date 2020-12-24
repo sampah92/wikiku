@@ -2,8 +2,8 @@
 title: Vercel
 description: sedikit ulasan tentang vercel
 published: true
-date: 2020-12-23T18:26:56.711Z
-tags: website, website generator, vercel
+date: 2020-12-24T06:19:29.439Z
+tags: "website", "website generator", "vercel"
 editor: markdown
 dateCreated: 2020-12-23T18:26:56.711Z
 ---
