@@ -2,7 +2,7 @@
 title: Vercel
 description: sedikit ulasan tentang vercel
 published: true
-date: 2020-12-27T14:39:01.704Z
+date: 2020-12-27T14:40:45.057Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-23T18:26:56.711Z
