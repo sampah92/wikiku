@@ -17,7 +17,7 @@ jobs:
         token: 9159fea9f129c55cb26e7df677c7a828fbcab3e3
     - name: Sync the repo
       id: sync
-      uses: sampah92/sinkronisasi-repo
+      uses: sampah92/sinkronisasi-repo@1.0
       with:
         github-username: sampah92
         target-subdir-name: content/posts
