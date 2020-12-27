@@ -2,7 +2,7 @@
 title: Byobu
 description: Byobu (tmux) memungkinkan kita untuk membagi satu konsol shell menjadi sekelompok "panel" atau "split".
 published: true
-date: 2020-12-27T14:24:49.292Z
+date: 2020-12-27T14:28:58.867Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-27T14:08:37.311Z
@@ -13,6 +13,12 @@ dateCreated: 2020-12-27T14:08:37.311Z
 
 # Fungsi Byobu
 [Byobu](https://www.byobu.org/) sebagai proyek perangkat lunak open source meningkatkan tampilan yang elegan dari Layar GNU yang fungsional, polos, praktis. Byobu mencakup profil yang ditingkatkan, utilitas konfigurasi, dan pemberitahuan status sistem untuk manajer jendela layar GNU serta multiplexer terminal Tmux. Byobu dikembangkan dan dirilis sebagai perangkat lunak gratis di bawah GPLv3.
+
+# Instalasi
+Ubuntu
+```
+sudo apt-get install byobu
+```
 
 # Keybind
 
