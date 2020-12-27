@@ -2,8 +2,8 @@
 title: Uninstall program
 description: menghapus instalasi pada Operasi sistem Ubuntu
 published: true
-date: 2020-12-22T14:19:15.195Z
-tags: ubuntu, uninstall, hapus
+date: 2020-12-27T14:36:07.341Z
+tags: 
 editor: markdown
 dateCreated: 2020-12-18T15:33:51.834Z
 ---
