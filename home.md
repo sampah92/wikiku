@@ -1,8 +1,8 @@
 ---
-title: 
+title: Tentang
 description: 
 published: true
-date: 2020-12-27T18:00:48.214Z
+date: 2020-12-27T18:01:19.585Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-21T04:29:13.705Z
