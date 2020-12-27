@@ -2,8 +2,8 @@
 title: Deploy hugo
 description: deploy hugo ke github
 published: true
-date: 2020-12-22T21:12:59.648Z
-tags: website, gohugo, hugo, github
+date: 2020-12-27T14:37:50.711Z
+tags: 
 editor: markdown
 dateCreated: 2020-12-22T21:12:59.648Z
 ---
