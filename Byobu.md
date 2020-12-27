@@ -2,7 +2,7 @@
 title: Byobu
 description: Byobu (tmux) memungkinkan kita untuk membagi satu konsol shell menjadi sekelompok "panel" atau "split".
 published: true
-date: 2020-12-27T14:22:24.854Z
+date: 2020-12-27T14:24:49.292Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-27T14:08:37.311Z
@@ -15,29 +15,28 @@ dateCreated: 2020-12-27T14:08:37.311Z
 [Byobu](https://www.byobu.org/) sebagai proyek perangkat lunak open source meningkatkan tampilan yang elegan dari Layar GNU yang fungsional, polos, praktis. Byobu mencakup profil yang ditingkatkan, utilitas konfigurasi, dan pemberitahuan status sistem untuk manajer jendela layar GNU serta multiplexer terminal Tmux. Byobu dikembangkan dan dirilis sebagai perangkat lunak gratis di bawah GPLv3.
 
 # Keybind
-```
-F2 - Create a new window
-F3 - Move to previous window
-F4 - Move to next window
-F5 - Reload profile
-F6 - Detach from this session
-F7 - Enter copy/scrollback mode
-F8 - Re-title a window
-F9 - Configuration Menu
-F12 -  Lock this terminal
-shift-F2 - Split the screen horizontally
-ctrl-F2 - Split the screen vertically
-shift-F3 - Shift the focus to the previous split region
-shift-F4 - Shift the focus to the next split region
-shift-F5 - Join all splits
-ctrl-F6 - Remove this split
-ctrl-F5 - Reconnect GPG and SSH sockets
-shift-F6 - Detach, but do not logout
-alt-pgup - Enter scrollback mode
-alt-pgdn - Enter scrollback mode
-Ctrl-a $ - show detailed status
-Ctrl-a R - Reload profile
-Ctrl-a ! - Toggle key bindings on and off
-Ctrl-a k - Kill the current window
-Ctrl-a ~ - Save the current window's scrollback buffe
-```
+
+<kbd>F2</kbd> - Create a new window
+<kbd>F3</kbd> - Move to previous window
+<kbd>F4</kbd> - Move to next window
+<kbd>F5</kbd> - Reload profile
+<kbd>F6</kbd> - Detach from this session
+<kbd>F7</kbd> - Enter copy/scrollback mode
+<kbd>F8</kbd> - Re-title a window
+<kbd>F9</kbd> - Configuration Menu
+<kbd>F12</kbd> -  Lock this terminal
+<kbd>shift-F2</kbd> - Split the screen horizontally
+<kbd>ctrl-F2</kbd> - Split the screen vertically
+<kbd>shift-F3</kbd> - Shift the focus to the previous split region
+<kbd>shift-F4</kbd> - Shift the focus to the next split region
+<kbd>shift-F5</kbd> - Join all splits
+<kbd>ctrl-F6</kbd> - Remove this split
+<kbd>ctrl-F5</kbd> - Reconnect GPG and SSH sockets
+<kbd>shift-F6</kbd> - Detach, but do not logout
+<kbd>alt-pgup</kbd> - Enter scrollback mode
+<kbd>alt-pgdn</kbd> - Enter scrollback mode
+<kbd>Ctrl-a $</kbd> - show detailed status
+<kbd>Ctrl-a R</kbd> - Reload profile
+<kbd>Ctrl-a !</kbd> - Toggle key bindings on and off
+<kbd>Ctrl-a k</kbd> - Kill the current window
+<kbd>Ctrl-a ~</kbd> - Save the current window's scrollback buffe
