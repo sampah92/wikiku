@@ -2,13 +2,13 @@
 title: Vercel
 description: sedikit ulasan tentang vercel
 published: true
-date: 2020-12-24T06:19:29.439Z
-tags: "website", "website generator", "vercel"
+date: 2020-12-27T14:39:01.704Z
+tags: 
 editor: markdown
 dateCreated: 2020-12-23T18:26:56.711Z
 ---
 
-# Vercel
+# Pendahuluan
 [Vercel.com](https://vercel.com) atau dulu dikenal [Now.sh](https://now.sh) merupakan salah satu tempat terbaik untuk deploy front-end app. [Vercel.com](https://vercel.com) mendukung banyak web-static generator seperti [hugo](https://gohugo.io) dan [jekyll](https://jekyllrb.com).
 # kelebihan
 - mudah untuk deploy website
