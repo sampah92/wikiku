@@ -2,7 +2,7 @@
 title: Digital Telco
 description: perpindahan operator ke penyediaan layanan yang serba digital
 published: true
-date: 2020-12-28T21:29:00.662Z
+date: 2020-12-28T21:29:48.305Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-28T21:29:00.662Z
