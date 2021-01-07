@@ -27,7 +27,7 @@ jobs:
         env: 
           API_TOKEN_GITHUB: 'd0be0798ec1093e58d631aa72a17a6cc9cf63242'
         with:
-          dest-repo: 'sampah92/sampah92.github.io'
+          dest-repo: 'https://github.com/sampah92/sampah92.github.io'
           dest-folder: 'content/posts'
 
       # Runs a set of commands using the runners shell
