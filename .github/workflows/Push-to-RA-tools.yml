@@ -27,7 +27,7 @@ jobs:
         env: 
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          dest-repo: 'https://github.com/sampah92/sampah92.github.io'
+          dest-repo: 'sampah92/sampah92.github.io'
           dest-folder: 'content/posts'
 
       # Runs a set of commands using the runners shell
