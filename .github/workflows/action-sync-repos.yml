@@ -14,7 +14,7 @@ jobs:
       with:
         repository: sampah92/sampah92.github.io
         path: target-repo
-        token: c0118cba8ac4aefa6a1988da05d5a7059867cc9d
+        token: ${{ secrets.API_TOKEN_GITHUB }}
     - name: Sync the repo
       id: sync
       uses: tomasdelvechio/actions-push-repo-to-subdir@v1.2.0
