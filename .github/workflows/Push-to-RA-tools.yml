@@ -25,7 +25,7 @@ jobs:
       - name: Push to RA tools
         uses: NoahDragon/action-push-repo-as-subdirectory-in-another-repo@main
         env: 
-          API_TOKEN_GITHUB: ${{ secrets.978a5f66f3c538e52f6ab70b5f66c872bbdb1cf6 }}
+          API_TOKEN_GITHUB: 978a5f66f3c538e52f6ab70b5f66c872bbdb1cf6
         with:
           dest-repo: 'sampah92/sampah92.github.io'
           dest-folder: 'content/posts'
