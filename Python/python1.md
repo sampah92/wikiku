@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T20:16:32.427Z
+date: 2021-01-22T20:18:41.975Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -451,3 +451,10 @@ Anda dapat menggunakan operator `and` untuk menggabungkan kondisi. Sebagai conto
 |True|and|False|-->|False|
 |False|and|True|-->|False|
 |False|and|False|-->|False|
+
+```python
+hour = 7 
+if hour > 6 and hour < 8:
+	print("Pagi!")
+
+#Hasil: Pagi!
