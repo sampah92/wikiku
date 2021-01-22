@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T12:22:14.393Z
+date: 2021-01-22T12:23:23.006Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -99,3 +99,10 @@ nama = "john"
 ```mermaid
  flowchart
  			john --> Name
+```
+
+## Mencetak Variabel
+Sekarang mari belajar cara mencetak nilai pada variable name.
+Anda dapat melakukannya dengan menulis print(name).
+Jika Anda menambahkan tanda kutip pada variable, seperti print('name'), name menjadi string, bukan variable.
+Maka dari itu, hasilnya akan menjadi name, bukan nilai dari variable.
