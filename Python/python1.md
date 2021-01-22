@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T16:58:50.818Z
+date: 2021-01-22T17:06:48.761Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -161,4 +161,20 @@ print(area) #Hasil: 25
 area = 5 * 5 # Butuh untuk menggantikan nilai berulang kali jika mau diubah
 
 print(area) #Hasil: 25
+```
+## Memperbarui Nilai Variable (1)
+Kita akan memperbarui nilai dari variable yang sudah didefinisikan.
+Anda dapat menulis kembali variable dengan nilai baru.
+Pada gambar di bawah, hasilnya berubah karena nilai diperbarui.
+```python
+# Tetapkan variabel X
+x = 5
+print(x)
+x = 11 # Gantikan nilai dengan menetapkan variabel 11 ke variabel x
+print(x)
+```
+```console
+
+5
+11 -> 
 ```
