@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T18:57:46.172Z
+date: 2021-01-22T18:59:04.894Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -344,5 +344,5 @@ print(3 == 5) --> False
 
 #Hasil
 -->     True
-				False
+--> 		False
 ```
