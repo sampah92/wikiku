@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T20:14:00.642Z
+date: 2021-01-22T20:16:32.427Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -443,3 +443,11 @@ else:
 ## and
 Mari belajar cara menggabungkan conditional expression!
 Anda dapat menggunakan operator `and` untuk menggabungkan kondisi. Sebagai contoh, `Kondisi1 and Kondisi2` akan menampilkan `True` ketika kedua kondisi terpenuhi.
+
+- Operator Logika - and
+||||||
+|:--|:--|:--|:--|:--|
+|True|and|True|-->|True|
+|True|and|False|-->|False|
+|False|and|True|-->|False|
+|False|and|False|-->|False|
