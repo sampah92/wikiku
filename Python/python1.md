@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T19:09:53.205Z
+date: 2021-01-22T19:22:44.568Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -349,7 +349,6 @@ print(3 == 5) --> False
 ```
 
 ## Statement If dan Nilai Boolean
-Mari kita mundur ke statement if untuk melihat interaksinya dengan nilai boolean. Code di bawah statement if dapat dijalankan apabila memenuhi kondisi True, dan tidak dapat dijalankan apabila memenuhi kondisi False.
+Mari kita mundur ke statement if untuk melihat interaksinya dengan nilai boolean. Code di bawah statement if dapat dijalankan apabila memenuhi kondisi `True`, dan tidak dapat dijalankan apabila memenuhi kondisi `False`.
 
 
----------------------------------------------------------------------------
