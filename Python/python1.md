@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T17:18:01.268Z
+date: 2021-01-22T17:22:19.293Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -174,5 +174,16 @@ Pada gambar di bawah, hasilnya berubah karena nilai diperbarui.
 x = 5
 print(x)
 x = 11 # Gantikan nilai dengan menetapkan variabel 11 ke variabel x
+# Nilai x yang semula 5 kemudian ditetapkan menjadi 11
+print(x)
+```
+## Memperbarui Nilai Variable (2)
+Jika Anda ingin menambahkan nilai sebuah variable, Anda dapat menetapkan jumlah dari variable tersebut dan angka ke variable itu sendiri. Ini terlihat aneh, namun perlu diingat bahwa <kbd>=</kbd> berarti `menetapkan`, bukan `sama dengan`.
+```python
+# Tetapkan variabel x
+x = 5
+print(x)
+x = x + 3 # tambakan 3 ke variabel x
+# Nilai dari variabel x diubah menjadi 8
 print(x)
 ```
