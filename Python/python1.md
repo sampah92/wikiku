@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T17:15:33.247Z
+date: 2021-01-22T17:18:01.268Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -122,8 +122,10 @@ Selain itu, jika nama variable terdiri dari lebih dari dua kata, seperti `user_n
 `user_name` #pisahkan menggunakan garis bawah{.is-success}
 
 > `a` #tidak deskriptif
-`1data` #mulai dengan angka
-`userName` #campuran huruf besar dan kecil{.is-danger}
+`1data` #mulai dengan angka{.is-danger}
+
+> `userName` #campuran huruf besar dan kecil{.is-warning}
+
 
 ## Pentingnya Variable (1)
 Sejauh ini, kita telah mempelajari bagaimana menggunakan dan memberi nama variable. Namun mengapa programmer menggunakannya? Salah satu alasannya adalah melabeli data membantu kita memahami variable dari nilai tersebut dan menjadikan code lebih mudah dibaca.
