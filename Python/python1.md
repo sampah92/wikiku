@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T18:45:07.165Z
+date: 2021-01-22T18:46:23.638Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -294,7 +294,7 @@ if score == 100 :
 	.
 
 ```
-## indentasi
+## Indentasi
 Anda harus `mengindentasi` code Anda jika menulis statement `if`.
 Code yang diindentasi di bawah statement if hanya akan berjalan jika kondisi benar. Bagian yang tidak diindentasi akan berjalan tidak peduli kondisi benar atau tidak.
 
