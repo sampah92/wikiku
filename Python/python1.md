@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T12:38:17.252Z
+date: 2021-01-22T16:33:05.077Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -112,7 +112,9 @@ print(name) #nilai dari variabel name
 print("john") #nilai dari string, 'john'
 ```
 
+
 ## Bagaimana Cara Menamai Variable
 Anda dapat memilih nama apapun untuk variable, namun ada beberapa aturan yang harus diikuti.
 Contohnya, Anda tidak bisa mengawali nama variable dengan angka.
 Selain itu, jika nama variable terdiri dari lebih dari dua kata, seperti `user_name`, Anda harus memisahkannya dengan <kbd>_</kbd>.
+> date #menggunakan huruf kecil{.is-success}
