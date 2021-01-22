@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T17:35:46.804Z
+date: 2021-01-22T18:05:31.899Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -201,3 +201,21 @@ Semua jenis perhitungan memilki sintaksis sejenis.
 |x = x * 10|->|x *= 10|*
 |x = x / 10|->|x /= 10|
 |x = x % 10|->|x %= 10|
+
+# Penggabungan String
+Operator + yang kita gunakan untuk perhitungan juga dapat digunakan untuk menggabungkan string. Penggabungan string disebut `string concatenation`. Penggabungan string dapat digunakan untuk string dan variable yang mempunyai tipe data string.
+```python
+print("hello "+"python") # + berguna sebagai penggabung string
+name = "john"
+print("nama saya "+name) # Dapat menggabungkan string dan variabel
+```
+# Tipe-tipe Data
+Sejauh ini, kita sudah mengenal `string dan integer`. Ini disebut tipe data. Ada tipe-tipe data lain di Python, namun mari kita mempelajari keduanya terlebih dahulu.
+```python
+`Hello Python` ... Tipe String
+3 ... Tipe Integer
+```
+## Perbedaan Dalam Tipe-tipe Data
+Tipe yang berbeda memiliki sifat yang berbeda.
+Contohnya, `print(5 + 7)` menghitung penjumlahannya sedangkan `print('5' + '7')` menggabungkan string.
+
