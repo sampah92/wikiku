@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T20:08:12.268Z
+date: 2021-01-22T20:12:24.802Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -432,7 +432,9 @@ elif score > 40:
   .
   .
 else:
-	.
   .
   .
+  .
+  
+#Hasil: Bagus! <-- conditional expression pertama yang bernilai True akan dijalankan
 ```
