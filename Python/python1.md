@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T11:17:02.424Z
+date: 2021-01-22T11:54:25.712Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -70,3 +70,15 @@ print(7%3)
 ```
 
 # Variabel
+
+Selanjutnya, kita akan belajar mengenai `variable`.
+Variable dapat diumpamakan seperti kotak yang memiliki nama dimana Anda dapat menyimpan nilai.
+
+konsep variabel
+```mermaid
+classdiagram
+		Data --> Nama;
+class nama{
+-john
+}
+```
