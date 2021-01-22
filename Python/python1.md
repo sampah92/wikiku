@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T17:30:01.562Z
+date: 2021-01-22T17:35:46.804Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -114,8 +114,8 @@ print(name) #nilai dari variabel name
 print("john") #nilai dari string, 'john'
 ```
 
-
-## Bagaimana Cara Menamai Variable
+## Menggunakan Variable
+### Bagaimana Cara Menamai Variable
 Anda dapat memilih nama apapun untuk variable, namun ada beberapa aturan yang harus diikuti.
 Contohnya, Anda tidak bisa mengawali nama variable dengan angka.
 Selain itu, jika nama variable terdiri dari lebih dari dua kata, seperti `user_name`, Anda harus memisahkannya dengan <kbd>_</kbd>.
@@ -128,7 +128,7 @@ Selain itu, jika nama variable terdiri dari lebih dari dua kata, seperti `user_n
 > `userName` #campuran huruf besar dan kecil{.is-warning}
 
 
-## Pentingnya Variable (1)
+### Pentingnya Variable (1)
 Sejauh ini, kita telah mempelajari bagaimana menggunakan dan memberi nama variable. Namun mengapa programmer menggunakannya? Salah satu alasannya adalah melabeli data membantu kita memahami variable dari nilai tersebut dan menjadikan code lebih mudah dibaca.
 
 - Code dengan variabel
@@ -145,7 +145,7 @@ total_price= 3 * 10 #Sulit untuk mengetahui apa arti dari angka ini
 print(total_price) #Hasil: 30
 ```
 
-## Pentingnya Variable (2)
+### Pentingnya Variable (2)
 Kegunaan lain dari variable adalah sebagai berikut:
 ・Anda dapat menggunakan data yang sama berulang kali.
 ・Jika Anda ingin mengganti nilai dari variable, Anda hanya perlu menggantinya sekali.
@@ -166,7 +166,8 @@ area = 5 * 5 # Butuh untuk menggantikan nilai berulang kali jika mau diubah
 
 print(area) #Hasil: 25
 ```
-## Memperbarui Nilai Variable (1)
+## Memperbarui Variable
+### Memperbarui Nilai Variable (1)
 Kita akan memperbarui nilai dari variable yang sudah didefinisikan.
 Anda dapat menulis kembali variable dengan nilai baru.
 Pada gambar di bawah, hasilnya berubah karena nilai diperbarui.
@@ -178,7 +179,7 @@ x = 11 # Gantikan nilai dengan menetapkan variabel 11 ke variabel x
 # Nilai x yang semula 5 kemudian ditetapkan menjadi 11
 print(x)
 ```
-## Memperbarui Nilai Variable (2)
+### Memperbarui Nilai Variable (2)
 Jika Anda ingin menambahkan nilai sebuah variable, Anda dapat menetapkan jumlah dari variable tersebut dan angka ke variable itu sendiri. Ini terlihat aneh, namun perlu diingat bahwa <kbd>=</kbd> berarti `menetapkan`, bukan `sama dengan`.
 ```python
 # Tetapkan variabel x
@@ -189,7 +190,7 @@ x = x + 3 # tambakan 3 ke variabel x
 print(x)
 ```
 
-## Memperbarui Nilai Variable (3)
+### Memperbarui Nilai Variable (3)
 Anda dapat menggunakan operator yang dipersingkat sepeti gambar di bawah saat memperbarui variable yang memiliki nilai integer.
 Semua jenis perhitungan memilki sintaksis sejenis.
 
