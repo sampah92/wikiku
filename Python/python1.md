@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T18:51:32.259Z
+date: 2021-01-22T18:57:46.172Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -327,4 +327,22 @@ score == 100
 print(score == 100)
 
 #Hasil: True
+```
+## Booleans
+
+`True` adalah nilai tipe data boolean.
+Tipe data boolean hanya mempunyai dua nilai, `True` dan `False`. `True` akan muncul jika kondisi dipenuhi, dan `False` jika tidak.
+Perlu diingat bahwa Anda harus menulis huruf pertama `True` dan `False` dalam huruf kapital.
+- Booleans
+```mermaid
+graph LR
+True & False --> a[... Tipe Data Boolean]
+```
+```python
+print(3 == 3) --> True
+print(3 == 5) --> False
+
+#Hasil
+-->     True
+				False
 ```
