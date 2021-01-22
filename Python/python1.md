@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T18:32:48.348Z
+date: 2021-01-22T18:45:07.165Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -275,3 +275,44 @@ if score == 100:		 <--- Jika kondisinya True
 		print("Bagus!")  <--- Jalankan code ini
 #Hasil: Bagus!
 ```
+
+## Conditional Expression
+Ada banyak `operator` untuk membuat conditional expression.
+Mari kita lihat `operator perbandingan`, yang dapat digunakan untuk membandingkan kesetaraan kedua nilai.
+Kita dapat menggunakan == untuk mengetahui jika kedua nilai sama, dan != untuk mengetahui jika kedua nilai tidak sama.
+- Operator perbandingan
+> x == y ... True jika nilai di kiri dan kanan setara{.is-info}
+
+> x!= ... True jika nilai di kiri dan kanan tidak setara{.is-info}
+
+- Contoh
+```python
+score = 100
+if score == 100 :
+	.
+	.
+	.
+
+```
+## indentasi
+Anda harus `mengindentasi` code Anda jika menulis statement `if`.
+Code yang diindentasi di bawah statement if hanya akan berjalan jika kondisi benar. Bagian yang tidak diindentasi akan berjalan tidak peduli kondisi benar atau tidak.
+
+```python
+score = 50
+if score == 100:
+___print("Bagus!")						<--- masuk ke statement if
+___print("terus lanjutkan!")	<--- masuk ke statement if
+# Indentasikan code secara konsisten (4 spasi atau 1 tab)
+
+# Karena kondisinya false,tidak ada yang dicetak.
+```
+```python
+score = 50
+if score == 100:
+	 print("Bagus!")						<--- masuk ke statement if
+print("terus lanjutkan!")		 <--- tidak masuk ke statement if
+
+#Hasil: "terus lanjutkan!"
+```
+	
