@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T19:55:30.330Z
+date: 2021-01-22T20:03:12.427Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -388,6 +388,7 @@ Anda juga dapat menggunakan `>=` dan `<=` jika perbandingannya inklusif.
 ## Apa yang Terjadi Jika Kondisi Salah?
 Dengan menggunakan statement `if`, Anda dapat menjalankan code hanya jika kondisinya `True`.
 Selanjutnya, mari belajar cara membuat statement control flow yang dapat menjalankan code berbeda saat kondisi `False`.
+
 ## Else
 Dengan menggunakan pernyataan `else`, Anda dapat menambahkan code yang ingin Anda jalankan jika kondisi statement `if` adalah False.
 ```python
@@ -400,5 +401,19 @@ __print("Belajar lagi!") # Indentasi harus digunakan dengan benar
 
 #Hasil: Belajar lagi!
 ```
-  
 
+# Statement elif
+## elif (1)
+Anda dapat menggunakan `elif` untuk menambah kondisi alternatif pada control flow. Cek contoh `elif` di bawah!
+
+```python
+score = 70
+if score == 100: <-- False
+	print("Bagus!")
+elif score >= 60:
+	print("Tidur buruk") <-- kode ini dijalankan
+else:
+	print("Belajar lebih baik!")
+
+#Hasil: Tidak buruk
+```
