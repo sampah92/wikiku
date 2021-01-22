@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T19:02:55.271Z
+date: 2021-01-22T19:07:19.532Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -352,74 +352,3 @@ Mari kita mundur ke statement if untuk melihat interaksinya dengan nilai boolean
 
 
 ---------------------------------------------------------------------------
-# Overview
-
-Markdown is a lightweight markup language with plain text formatting syntax. It's the de-facto syntax for writing documentation on major code repositories such as GitHub.
-
-Wiki.js supports the full [CommonMark specification](https://spec.commonmark.org/) + adds some useful extensions (including the Github Flavored Markdown addons).
-
-# User Guide
-
-## Blockquotes
-
-### Tab {.tabset}
-
-#### Usage
-
-Using a **greater-than** symbol, followed by a space, before each line of text.
-
-#### Shortcuts
-- By selecting text, then clicking the ![Blockquote](/assets/ui/ui-markdown-blockquotes.png =x30){.radius-4} button in the toolbar.
-
-#### Examples
-
-```js
-> Lorem ipsum dolor sit amet
-> Consectetur adipiscing elit
-```
-
-> Lorem ipsum dolor sit amet
-> Consectetur adipiscing elit
-
-#### Stylings
-
-By adding a class on a separate line, after the blockquote, you can change the look of the blockquote. Note that these stylings are specific to Wiki.js and will fallback to standard blockquote styling in other applications.
-
-- Blue: `is-info`
-- Green: `is-success`
-- Yellow: `is-warning`
-- Red: `is-danger`
-
-```css
-> Lorem ipsum dolor sit amet
-> Consectetur adipiscing elit
-{.is-info}
-```
-
-> This is a default unstyled blockquote.
-
-> This is a `{.is-info}` blockquote.
-{.is-info}
-
-> This is a `{.is-success}` blockquote.
-{.is-success}
-
-> This is a `{.is-warning}` blockquote.
-{.is-warning}
-
-> This is a `{.is-danger}` blockquote.
-{.is-danger}
-
-## Bold
-
-### Tab {.tabset}
-
-#### Usage
-
-Using **double asterisks** symbols before and after the text selection.
-
-#### Shortcuts
-- By selecting text, then clicking the ![Bold](/assets/ui/ui-markdown-bold.png =x30){.radius-4} button in the toolbar.
-- By selecting text, then pressing <kbd>CTRL</kbd> + <kbd>B</kbd>
-
-#### Examples
