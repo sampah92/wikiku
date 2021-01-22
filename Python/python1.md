@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T19:34:49.624Z
+date: 2021-01-22T19:36:51.216Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -384,3 +384,7 @@ Anda juga dapat menggunakan `>=` dan `<=` jika perbandingannya inklusif.
 |8 / 4 < 5|...|True|
 |2 * 5 <= 9|...|False:
 
+# Statement else
+## Apa yang Terjadi Jika Kondisi Salah?
+Dengan menggunakan statement `if`, Anda dapat menjalankan code hanya jika kondisinya `True`.
+Selanjutnya, mari belajar cara membuat statement control flow yang dapat menjalankan code berbeda saat kondisi `False`.
