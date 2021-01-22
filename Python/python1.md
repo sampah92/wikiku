@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T20:12:24.802Z
+date: 2021-01-22T20:14:00.642Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -438,3 +438,8 @@ else:
   
 #Hasil: Bagus! <-- conditional expression pertama yang bernilai True akan dijalankan
 ```
+
+# Menggabungkan Kondisi
+## and
+Mari belajar cara menggabungkan conditional expression!
+Anda dapat menggunakan operator `and` untuk menggabungkan kondisi. Sebagai contoh, `Kondisi1 and Kondisi2` akan menampilkan `True` ketika kedua kondisi terpenuhi.
