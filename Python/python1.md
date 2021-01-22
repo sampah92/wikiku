@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T11:05:31.186Z
+date: 2021-01-22T11:14:13.742Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -17,9 +17,50 @@ Python adalah bahasa pemrograman yang sederhana dan mudah dimengerti. Python dap
 # String
 Ayo jalankan program Python pertama kita!
 
-Anda dapat menampilkan karakter dengan mengetik 
+Anda dapat menampilkan karakter dengan mengetik. 
 ```python
-print().
+print()
+```
+contoh
+```python
+print("hello world")
 ```
 
 Karakter di dalam tanda kurung akan ditampilkan di dalam console.
+
+
+Dalam Python, urutan karakter seperti "Hello Python" disebut string.
+String harus ditutup dengan tanda kutip atau kutip ganda.
+Hasilnya akan sama.
+Jika Anda tidak menambahkan tanda kutip, hasilnya akan error
+
+# komentar
+Menambahkan # pada awal perintah akan membuat baris perintah itu menjadi komentar.
+```python
+#ini komentar
+```
+Komentar tidak akan muncul ketika code dijalankan sehingga Anda bisa menggunakannya untuk catatan.
+
+# integer
+Anda dapat menggunakan integer (bilangan bulat) dalam pemrograman. Tidak seperti string, integer tidak memerlukan tanda kutip. Anda dapat menambah dan mengurangi integer, seperti dalam matematika. Spasi sebelum dan sesudah operator tidak diperlukan, namun akan membuat code lebih mudah dibaca.
+```python
+print(3+5)
+#jangan apit nomor dalam kutipan
+```
+## perbedaan string dan integer
+String dan integer diinterpretasikan berbeda dalam pemrograman.
+Seperti pada gambar di bawah, 3 + 5 akan menghasilkan 8, hasil penambahannya. Akan tetapi, jika Anda memakai tanda kutip dan membuatnya tipe data string, hasilnya akan menjadi 3 + 5.
+```python
+print(3+5)
+#ini integer
+```
+```python
+print("3+5")
+#ini string
+```
+
+# Perhitungan
+
+Dalam Python, Anda dapat melakukan perhitungan lain seperti perkalian dan pembagian, namun dengan simbol yang berbeda dengan yang biasanya Anda pakai dalam matematika.
+<kbd>*</kbd> adalah simbol perkalian dan <kbd>/</kbd> adalah simbol pembagian.
+Anda juga dapat menghitung sisa pembagian dengan <kbd>%</kbd>.
