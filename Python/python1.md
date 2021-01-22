@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T19:26:45.763Z
+date: 2021-01-22T19:32:00.058Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -365,3 +365,15 @@ if score == 100: --> False
 
 # Karena kondisinya False, code didalam if TIDAK di jalankan
 ```
+
+## Operator Perbandingan (<, <=, >, >=)
+Ada operator-operator lain yang dapat digunakan untuk membandingkan nilai. Seperti dalam matematika, Anda dapat menggunakan `<` dan `>` untuk membandingkan angka.
+Anda juga dapat menggunakan `>=` dan `<=` jika perbandingannya inklusif.
+
+- Operator Perbandingan (<, <=, >, >=)
+> x **<** y **TRUE** jika x lebih kecil dari y
+> x **<=** y **TRUE** jika x lebih kecil dari atau sama dengan y{.is-info}
+
+> x **>** y **TRUE** jika x lebih besar dari y
+> x **>=** y **TRUE** jika x lebih besar dari atau sama dengan y{.is-info}
+
