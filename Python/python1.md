@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T18:05:31.899Z
+date: 2021-01-22T18:08:27.734Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -218,4 +218,10 @@ Sejauh ini, kita sudah mengenal `string dan integer`. Ini disebut tipe data. Ada
 ## Perbedaan Dalam Tipe-tipe Data
 Tipe yang berbeda memiliki sifat yang berbeda.
 Contohnya, `print(5 + 7)` menghitung penjumlahannya sedangkan `print('5' + '7')` menggabungkan string.
+```python
+print(5 + 7) <------- Kalkulasi Numerik
+# Hasil: 12
+print(`5` + `7`) <------ Penggabungan String
+# Hasil: 57
+```
 
