@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T16:46:38.119Z
+date: 2021-01-22T16:58:50.818Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -124,7 +124,41 @@ Selain itu, jika nama variable terdiri dari lebih dari dua kata, seperti `user_n
 `1data` #mulai dengan angka
 `userName` #campuran huruf besar dan kecil{.is-danger}
 
+## Pentingnya Variable (1)
+Sejauh ini, kita telah mempelajari bagaimana menggunakan dan memberi nama variable. Namun mengapa programmer menggunakannya? Salah satu alasannya adalah melabeli data membantu kita memahami variable dari nilai tersebut dan menjadikan code lebih mudah dibaca.
 
+- Code dengan variabel
 
+```python
+apple_count = 3 #Deskriptif
+apple_price = 10 #Deskriptif
+total_price = apple_count * apple_price
+print(total_price) #asil: 30
+```
+- Code tanpa variabel
+```python
+total_price= 3 * 10 #Sulit untuk mengetahui apa arti dari angka ini
+print(total_price) #Hasil: 30
+```
 
+## Pentingnya Variable (2)
+Kegunaan lain dari variable adalah sebagai berikut:
+・Anda dapat menggunakan data yang sama berulang kali.
+・Jika Anda ingin mengganti nilai dari variable, Anda hanya perlu menggantinya sekali.
 
+- Code dengan variabel
+
+```python
+# Kalkulasikan area sebuah persegi
+length = 5 # Dapat menggunakan data yang sama dua kali
+area = length * length
+print(area) #Hasil: 25
+```
+- Code tanpa variabel
+
+```python
+# Kalkulasikan area sebuah persegi
+area = 5 * 5 # Butuh untuk menggantikan nilai berulang kali jika mau diubah
+
+print(area) #Hasil: 25
+```
