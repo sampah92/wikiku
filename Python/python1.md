@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T17:22:19.293Z
+date: 2021-01-22T17:26:48.492Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -187,3 +187,15 @@ x = x + 3 # tambakan 3 ke variabel x
 # Nilai dari variabel x diubah menjadi 8
 print(x)
 ```
+
+## Memperbarui Nilai Variable (3)
+Anda dapat menggunakan operator yang dipersingkat sepeti gambar di bawah saat memperbarui variable yang memiliki nilai integer.
+Semua jenis perhitungan memilki sintaksis sejenis.
+
+|Standar||Singkatan|
+|:--|:--|
+|x = x + 10|->|x += 10|
+|x = x - 10|->|x -= 10|
+|x = x * 10|->|x *= 10|*
+|x = x / 10|->|x /= 10|
+|x = x % 10|->|x %= 10|
