@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T18:25:34.780Z
+date: 2021-01-22T18:32:48.348Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -260,3 +260,18 @@ print(total_price)
 
 # Statement if
 ## Control Flow
+
+KIta akan belajar mengenai `control flow` sekarang.
+Dalam pemrogramman, kita seringkali ingin mengontrol jalannya code berdasarkan kondisi-kondisi yang dipenuhi.
+Sebagai contoh, Anda ingin mengatakan 'Bagus!' (hasil) hanya jika skor 100% (kondisi).
+
+## Statement If
+Dengan menggunakan statement `if`, Anda dapat menulis code yang dapat dijalankan hanya jika kondisi dipenuhi.
+Anda dapat membuat statement `if` dengan menulis `if`, diikuti `conditional expression` dan tanda titik dua <kbd>:</kbd>.
+Code di baris berikutnya akan berjalan jika kondisi benar.
+```python
+score = 100
+if score == 100:		 <--- Jika kondisinya True
+		print("Bagus!")  <--- Jalankan code ini
+#Hasil: Bagus!
+```
