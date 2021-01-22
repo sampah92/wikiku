@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T17:11:38.039Z
+date: 2021-01-22T17:15:11.099Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -32,7 +32,8 @@ Karakter di dalam tanda kurung akan ditampilkan di dalam `console`.
 Dalam Python, urutan karakter seperti `"Hello Python"` disebut `string`.
 String harus ditutup dengan tanda kutip atau kutip ganda.
 Hasilnya akan sama.
-Jika Anda tidak menambahkan tanda kutip, hasilnya akan error
+Jika Anda tidak menambahkan tanda kutip, hasilnya akan error.
+
 
 # Komentar
 Menambahkan <kbd>#</kbd> pada awal perintah akan membuat baris perintah itu menjadi komentar.
@@ -140,7 +141,7 @@ print(total_price) #asil: 30
 total_price= 3 * 10 #Sulit untuk mengetahui apa arti dari angka ini
 print(total_price) #Hasil: 30
 ```
-
+---
 ## Pentingnya Variable (2)
 Kegunaan lain dari variable adalah sebagai berikut:
 ・Anda dapat menggunakan data yang sama berulang kali.
@@ -162,6 +163,7 @@ area = 5 * 5 # Butuh untuk menggantikan nilai berulang kali jika mau diubah
 
 print(area) #Hasil: 25
 ```
+---
 ## Memperbarui Nilai Variable (1)
 Kita akan memperbarui nilai dari variable yang sudah didefinisikan.
 Anda dapat menulis kembali variable dengan nilai baru.
