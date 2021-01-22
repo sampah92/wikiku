@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T19:32:00.058Z
+date: 2021-01-22T19:34:49.624Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -376,4 +376,11 @@ Anda juga dapat menggunakan `>=` dan `<=` jika perbandingannya inklusif.
 
 > x **>** y **TRUE** jika x lebih besar dari y
 > x **>=** y **TRUE** jika x lebih besar dari atau sama dengan y{.is-info}
+
+||||
+|:--|:--|:--|
+|2 > 6|...|False|
+|4 + 2 >= 6|...|True|
+|8 / 4 < 5|...|True|
+|2 * 5 <= 9|...|False:
 
