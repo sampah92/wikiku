@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T19:08:34.410Z
+date: 2021-01-22T19:09:53.205Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -316,7 +316,7 @@ print("terus lanjutkan!")		 <--- tidak masuk ke statement if
 #Hasil: "terus lanjutkan!"
 ```
 # Booleans
-# Tab {.tabset}
+## Tab {.tabset}
 ## True and False
 Mari kita mencoba untuk memahami bagaimana `conditional expression` bekerja. Saat Anda mencetak kondisi seperti <kbd>score == 100</kbd>, <kbd>True</kbd> akan muncul. Apa nilai <kbd>True</kbd>?
 ```python
