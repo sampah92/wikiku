@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T12:32:49.349Z
+date: 2021-01-22T12:38:17.252Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -26,30 +26,30 @@ contoh
 print("hello world")
 ```
 
-Karakter di dalam tanda kurung akan ditampilkan di dalam console.
+Karakter di dalam tanda kurung akan ditampilkan di dalam `console`.
 
 
-Dalam Python, urutan karakter seperti "Hello Python" disebut string.
+Dalam Python, urutan karakter seperti `"Hello Python"` disebut `string`.
 String harus ditutup dengan tanda kutip atau kutip ganda.
 Hasilnya akan sama.
 Jika Anda tidak menambahkan tanda kutip, hasilnya akan error
 
 # Komentar
-Menambahkan # pada awal perintah akan membuat baris perintah itu menjadi komentar.
+Menambahkan <kbd>#</kbd> pada awal perintah akan membuat baris perintah itu menjadi komentar.
 ```python
 #ini komentar
 ```
 Komentar tidak akan muncul ketika code dijalankan sehingga Anda bisa menggunakannya untuk catatan.
 
 # Integer
-Anda dapat menggunakan integer (bilangan bulat) dalam pemrograman. Tidak seperti string, integer tidak memerlukan tanda kutip. Anda dapat menambah dan mengurangi integer, seperti dalam matematika. Spasi sebelum dan sesudah operator tidak diperlukan, namun akan membuat code lebih mudah dibaca.
+Anda dapat menggunakan integer (bilangan bulat) dalam pemrograman. Tidak seperti string, `integer tidak memerlukan tanda kutip`. Anda dapat menambah dan mengurangi integer, seperti dalam matematika. Spasi sebelum dan sesudah operator tidak diperlukan, namun akan membuat code lebih mudah dibaca.
 ```python
 print(3+5)
 #jangan apit nomor dalam kutipan
 ```
 ## Perbedaan string dan integer
 String dan integer diinterpretasikan berbeda dalam pemrograman.
-Seperti pada gambar di bawah, 3 + 5 akan menghasilkan 8, hasil penambahannya. Akan tetapi, jika Anda memakai tanda kutip dan membuatnya tipe data string, hasilnya akan menjadi 3 + 5.
+Seperti pada gambar di bawah, <kbd>3 + 5</kbd> akan menghasilkan <kbd>8</kbd>, hasil penambahannya. Akan tetapi, jika Anda memakai tanda kutip dan membuatnya tipe data string, hasilnya akan menjadi <kbd>3 + 5</kbd>.
 ```python
 print(3+5)
 #ini integer
@@ -111,3 +111,8 @@ name = "john"
 print(name) #nilai dari variabel name
 print("john") #nilai dari string, 'john'
 ```
+
+## Bagaimana Cara Menamai Variable
+Anda dapat memilih nama apapun untuk variable, namun ada beberapa aturan yang harus diikuti.
+Contohnya, Anda tidak bisa mengawali nama variable dengan angka.
+Selain itu, jika nama variable terdiri dari lebih dari dua kata, seperti `user_name`, Anda harus memisahkannya dengan <kbd>_</kbd>.
