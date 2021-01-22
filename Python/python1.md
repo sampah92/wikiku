@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T18:08:27.734Z
+date: 2021-01-22T18:21:13.152Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -224,4 +224,22 @@ print(5 + 7) <------- Kalkulasi Numerik
 print(`5` + `7`) <------ Penggabungan String
 # Hasil: 57
 ```
+# Konversi Tipe: str()
+Seperti bisa dilihat pada gambar sebelah kiri, Anda tidak bisa menggabungkan string dan integer karena tipe data keduanya berbeda. Untuk menggabungkan dua tipe data, Anda harus melakukan `konversi tipe`. Pada contoh di bawah, Anda harus mengonversi integer ke string, menggunakan `str()`.
 
+- belum dikonversi
+```python
+price = 3
+print("Harga apel " + price "dolar")
+#    "harga apel"    --> string			 
+#     price          --> integer 
+#    "dolar"         --> string
+
+TypeEror: Cant' convert 'int' object to str implicity
+# Tidak bisa menggabungkan tipe string dan integer
+```
+- Sudah terkonversi
+```python
+price = 3
+print("Harga apel " + str(price)+ "dolar")
+# Str mengubah integer ke string
