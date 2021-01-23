@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T14:18:01.143Z
+date: 2021-01-23T14:21:29.943Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -226,3 +226,9 @@ for fruit_key in fruits: # Setiap kunci ditetapkan ke variabel "fruit_key"
 #Hasil: Anggur berwarna ungu
 
 ```
+
+# Bekerja dengan Loop
+## Loop while
+Anda juga dapat menggunakan `loop while` untuk mengulang code.
+Dengan loop `while`, code akan diulangi sampai kondisi tertentu, seperti jika `x <= 100 `mengevaluasi `False`.
+Mari belajar bagaimana cara menulis loop `while` pada slide berikutnya!
