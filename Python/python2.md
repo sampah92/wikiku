@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T14:09:49.164Z
+date: 2021-01-23T14:12:52.815Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -198,4 +198,15 @@ fruits["apel"] = "hijau" # Perbarui nilainya dengan kunci "apel"
 print("Apel berwarna " + fruits["apel"])
 
 #Hasil: Apel berwarna hijau
+```
+### Menambah Element pada Dictionary
+Menambah element dapat dilakukan dengan menggunakan sintaksis yang sama dengan memperbarui element.
+Saat suatu kunci tidak ada dalam dictionary, element baru dengan kunci akan ditambahkan.
+```python
+fruits = {"apel": "merah", "pisang":"kuning", "anggur":"ungu"}
+fruits["persik"] = "merah jambu" # menambahkan sebuah nilai dengan kunci "persik"
+
+print(fruits)
+
+#Hasil: {"presik": "merah jambu", "apel": "merah", "pisang":"kuning", "anggur":"ungu"}
 ```
