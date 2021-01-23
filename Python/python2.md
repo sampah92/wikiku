@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T13:43:47.169Z
+date: 2021-01-23T13:47:24.292Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -154,3 +154,5 @@ foods = ["pasta", "gulai", "sushi"]
 for food in foods:  # list nama makanan akan masuk ke variabel food    
 		print("Saya suka " + food) # Bagian dari loop
 ```
+cara kerja loop for
+
