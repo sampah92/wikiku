@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T11:47:57.617Z
+date: 2021-01-23T11:49:58.829Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -61,3 +61,5 @@ Penggunaan
 # List dari item gabungan
 [["apel", "pisang", 200, 300]
 ```
+## Menetapkan List ke Variable
+Seperti integer dan string, Anda dapat menentukan list ke dalam satu variable. Sesuai norma penamaan yang berlaku, nama variable bersifat plural, seperti `foods`, karena variable akan mengandung banyak element.
