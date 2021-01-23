@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T12:11:45.046Z
+date: 2021-01-23T12:13:07.628Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -41,7 +41,7 @@ class data{
     sushi
 }
 ```
-## List (Daftar)
+### List (Daftar)
 Tipe data `list` memungkinkan Anda untuk mengelola sekelompok data sekaligus. Anda dapat membuat list sebagai berikut: `[element1, element2, ...]`. Setiap nilai di dalam list disebut `element`.
 Dengan menggunakan list, Anda dapat mengelola banyak string dan integer dalam satu grup.
 
@@ -61,7 +61,7 @@ Penggunaan
 # List dari item gabungan
 [["apel", "pisang", 200, 300]
 ```
-## Menetapkan List ke Variable
+### Menetapkan List ke Variable
 Seperti integer dan string, Anda dapat menentukan list ke dalam satu variable. Sesuai norma penamaan yang berlaku, nama variable bersifat plural, seperti `foods`, karena variable akan mengandung banyak element.
 
 ```python
@@ -72,7 +72,7 @@ print(foods)
 # List dicetak sebagaimana adanya
 ```
 
-## Menentukan Element dalam List
+### Menentukan Element dalam List
 Setiap element list dinomori `0, 1, 2, ....`
 Ini disebut `nomor indeks`. Nomor indeks dimulai dari `0`. Anda bisa mendapatkan element individual dengan menulis `list[index]`.
 
