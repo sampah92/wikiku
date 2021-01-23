@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T14:03:22.805Z
+date: 2021-01-23T14:07:10.407Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -185,4 +185,15 @@ fruits = {"apel": "merah", "pisang":"kuning", "anggur":"ungu"}
 print("Apel berwarna" + fruits["apel"]) # Mendapatkan nilai berdasarkan kunci yang terkait
 
 #Hasil: Apel berwarna merah
+```
+### Memperbarui Element-Element Dictionary
+Seperti pada list, Anda dapat menambah atau memperbarui element pada dictionary.
+Memperbarui nilai dari kunci yang sudah ada dapat dilakukan dengan menulis `nama_dictionary[kunci]` = nilai.
+```python
+fruits = {"apel": "merah", "pisang":"kuning", "anggur":"ungu"}
+fruits["apel"] = "hijau" # Perbarui nilainya dengan kunci "apel"
+
+print("Apel berwarna " + fruits["apel"])
+
+#Hasil: Apel berwarna hijau
 ```
