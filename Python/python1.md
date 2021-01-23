@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-23T05:32:46.931Z
+date: 2021-01-23T05:43:05.044Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -474,3 +474,57 @@ if hour == 12: <-- False
 # Menggabungkan Kondisi
 ## Merantai Operator Perbandingan
 Anda dapat menulis ulang kondisi `and` yang menggunakan variable yang sama dengan cara yang ditunjukkan gambar di bawah! Hal ini disebut `merantai perbandingan operator`.
+
+```python
+hour = 7
+if hour > 6 and hour < 8:
+	print("Pagi!")
+
+#Hasil: Pagi!
+```
+```python
+hour = 7
+if 6 < hour < 8: # Anda dapat merantai operator tanpa menggunakan and
+	print("Pagi")
+
+#Hasil: Pagi!
+```
+
+# Menghitung Harga
+## Menghitung Total Belanja
+Menggabungkan apa yang sudah kita pelajari, kita akan membuat program sederhana untuk menghitung total harga belanja.
+Seperti pada gambar di bawah, kita akan mencetak hasil perhitungan berdasarkan jumlah apel yang dimasukkan pada console.
+## Mencetak Jumlah Pembayaran
+Pertama-tama, mari mencetak uang yang dibutuhkan untuk membeli beberapa apel!
+```python
+# Berikan 2 ke variable apple_price 
+apple_price = 2
+
+# Berikan 5 ke variable count 
+count = 5
+
+# Berikan hasil dari apple_price * count ke variable total_price 
+total_price = apple_price * count
+
+# Dengan menggunakan variable count, cetak 'Anda akan membeli .. apel'
+print('Anda akan membeli ' + str(count) + ' apel')
+
+# Dengan menggunakan variable total_price, cetak 'Harga total adalah .. dolar'
+print('Harga total adalah ' + str(total_price) + ' dolar')
+```
+## Mengubah Jumlah Apel
+Pada pelajaran sebelumnya, jumlah apel sudah ditentukan.
+Mari kita ubah sehingga Anda dapat mengisi jumlah apel yang akan Anda beli.
+## Mendapatkan Input
+`input()` memungkinkan Anda dapat mengisi angka pada console ketika menjalankan code, dan menerima nilai yang dimasukkan.
+Dengan menulis `variable = input('string yang ingin Anda tampilkan di console')`, nilai akan ditentukan ke variable.
+```python
+input_count = input("Ma berapa apel: ") # Dapatkan input keyboard ke conosole
+	.
+  .
+  .
+print("Anda akan membeli " + input_count + "apel")
+
+# Mau berapa apel?:
+# Hasil: Anda membeli 3 Apel
+```
