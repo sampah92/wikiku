@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T11:56:33.026Z
+date: 2021-01-23T12:02:30.717Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -71,3 +71,7 @@ print(foods)
 #Hasil: ["pasta", "gulai", "sushi"]
 # List dicetak sebagaimana adanya
 ```
+
+## Menentukan Element dalam List
+Setiap element list dinomori `0, 1, 2, ....`
+Ini disebut `nomor indeks`. Nomor indeks dimulai dari `0`. Anda bisa mendapatkan element individual dengan menulis `list[index]`.
