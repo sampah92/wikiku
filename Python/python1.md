@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-23T06:23:01.643Z
+date: 2021-01-23T06:27:03.725Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -15,6 +15,7 @@ Di akhir pelajaran, kita akan membuat aplikasi sederhana untuk menghitung total 
 Python adalah bahasa pemrograman yang sederhana dan mudah dimengerti. Python dapat di gunakan dalam pengembangan web, machine learning, pemrosesan statistik, dan banyak lagi.
 
 # Dasar-dasar
+# Tab {.tabset}
 ## String
 Ayo jalankan program Python pertama kita!
 
