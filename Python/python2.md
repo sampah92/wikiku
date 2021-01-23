@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T13:53:04.798Z
+date: 2021-01-23T13:53:46.744Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
