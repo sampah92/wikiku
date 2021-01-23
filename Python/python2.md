@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T11:14:48.915Z
+date: 2021-01-23T11:28:43.558Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -32,3 +32,12 @@ sushi --> food3
 ```
 > **List** Mengelola sekelompok data secara **bersamaan**
 {.is-info}
+```mermaid
+ classDiagram
+foods <|-- coba
+class coba{
+    pasta
+    gulai
+    sushi
+}
+```
