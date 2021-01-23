@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-22T20:21:26.539Z
+date: 2021-01-23T05:32:46.931Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -469,3 +469,8 @@ if hour == 12: <-- False
 	print("Bukan siang")
 
 #Hasil: Bukan siang
+```
+
+# Menggabungkan Kondisi
+## Merantai Operator Perbandingan
+Anda dapat menulis ulang kondisi `and` yang menggunakan variable yang sama dengan cara yang ditunjukkan gambar di bawah! Hal ini disebut `merantai perbandingan operator`.
