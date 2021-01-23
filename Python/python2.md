@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T13:28:08.760Z
+date: 2021-01-23T13:29:54.801Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -90,8 +90,8 @@ print("saya suka " + foods[2]) # Mengambil element menggunakan nomor index
 # Element dengan index 2 dicetak
 # Hasil: Saya suka sushi
 ```
-# Memperbarui dan Menambah Element-Element List
-## Memperbarui Element Pada List
+## Memperbarui dan Menambah Element-Element List
+### Memperbarui Element Pada List
 Mari kita mencoba untuk memperbarui element pada list.
 Ini dapat dilakukan dengan menulis `list[index] = nilai`.
 ```python
@@ -102,7 +102,7 @@ print(foods)
 #Hasil: ["pasta", "gulai", "sushi"]
 # Element di index 1 diperbarui
 ```
-## Menambah Element Pada List
+### Menambah Element Pada List
 Anda juga dapat menambah element pada list.
 Dengan menulis `list.append(nilai)`, Anda dapat menambahkan element baru pada akhir sebuah list.
 ```python
@@ -113,3 +113,6 @@ print(foods)
 #Hasil: ["pasta", "gulai", "sushi", "pizza]
 # Sebuah element ditambahkan
 ```
+
+## Loop for
+### 
