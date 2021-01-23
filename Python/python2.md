@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T13:32:52.864Z
+date: 2021-01-23T13:35:56.980Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -125,6 +125,20 @@ print("Saya suka " + foods[2])
 print("Saya suka " + foods[3])
 # Mencetak satu per satu tidak efisien
 
+#Hasil:
+#Saya suka pasta
+#Saya suka gulai
+#Saya suka sushi
+```
+
+### Loop for
+Loop `for` memudahkan Anda untuk memproses setiap element pada list dengan temporary variable (variable sementara) dan mengaplikasikan code yang sama.
+Pada contoh di bawah, tiap element pada variable `foods` disimpan pada variable sementara, yaitu `food` dan dicetak.
+```python
+foods = ["pasta", "gulai", "sushi"]
+for food in foods:  #food = temporary variable    
+		print("Saya suka " + food
+    
 #Hasil:
 #Saya suka pasta
 #Saya suka gulai
