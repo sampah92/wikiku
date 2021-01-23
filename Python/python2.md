@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T13:35:56.980Z
+date: 2021-01-23T13:43:47.169Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -137,10 +137,20 @@ Pada contoh di bawah, tiap element pada variable `foods` disimpan pada variable 
 ```python
 foods = ["pasta", "gulai", "sushi"]
 for food in foods:  #food = temporary variable    
-		print("Saya suka " + food
+		print("Saya suka " + food)
     
 #Hasil:
 #Saya suka pasta
 #Saya suka gulai
 #Saya suka sushi
+```
+
+### Alur Loop for
+Element pada list akan ditentukan ke temporary variable satu per satu, dan code dalam loop `for` akan dijalankan untuk tiap penempatannya. Hal ini disebut `iterasi`. Umumnya, kita memakai bentuk singular dari nama list untuk temporary variable, namun ini bisa apapun. Tidak ada aturan khusus.
+
+contoh
+```python
+foods = ["pasta", "gulai", "sushi"]
+for food in foods:  # list nama makanan akan masuk ke variabel food    
+		print("Saya suka " + food) # Bagian dari loop
 ```
