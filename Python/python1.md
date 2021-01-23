@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-23T05:43:05.044Z
+date: 2021-01-23T05:49:45.042Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -515,6 +515,7 @@ print('Harga total adalah ' + str(total_price) + ' dolar')
 ## Mengubah Jumlah Apel
 Pada pelajaran sebelumnya, jumlah apel sudah ditentukan.
 Mari kita ubah sehingga Anda dapat mengisi jumlah apel yang akan Anda beli.
+# Mendapatkan Input
 ## Mendapatkan Input
 `input()` memungkinkan Anda dapat mengisi angka pada console ketika menjalankan code, dan menerima nilai yang dimasukkan.
 Dengan menulis `variable = input('string yang ingin Anda tampilkan di console')`, nilai akan ditentukan ke variable.
@@ -528,3 +529,32 @@ print("Anda akan membeli " + input_count + "apel")
 # Mau berapa apel?:
 # Hasil: Anda membeli 3 Apel
 ```
+## Tipe Konversi Nilai Input
+
+Nilai yang Anda dapatkan dari `input()` adalah string, bahkan jika Anda mengisinya dengan angka. Jika Anda ingin menggunakan nilainya sebagai integer untuk sebuah perhitungan, Anda harus mengonversinya ke tipe data integer, seperti gambar di bawah.
+```python
+apple_price = 2
+input_count = input("Mau berapa apel?:") # mendapatkan input
+count = int(input_count) # Mengubah ke Integer
+total_price + apple_price * count # Integer * Integer
+print("Harga total adalah" + str(total_price) + "dolar")
+
+# Mau berapa apel?: 3
+# Anda akan membeli 3 apel
+# Harga total adalah 6 dolar
+```
+### Contoh
+```python
+apple_price = 2
+
+# Terima jumlah apel dengan menggunakan input(), dan berikan hasilnya ke variable input_count 
+input_count = input('Mau berapa apel?: ')
+
+# Ubah variable input_count ke integer, dan berikan hasilnya ke variable count 
+count = int(input_count)
+total_price = apple_price * count
+
+print('Anda akan membeli ' + str(count) + ' apel')
+print('Harga total adalah ' + str(total_price) + ' dolar')
+```
+
