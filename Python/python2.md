@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T14:00:43.630Z
+date: 2021-01-23T14:03:22.805Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -177,4 +177,12 @@ fruits = {"apel": "merah", "pisang":"kuning", "anggur":"ungu"}
 print(fruits)
 
 #Hasil: {"apel": "merah", "pisang":"kuning", "anggur":"ungu"}
+```
+### Mendapatkan Element pada Dictionary
+Anda bisa mendapatkan nilai dari dictionary menggunakan kunci dengan menulis `nama_dictionary[kunci]`.
+```python
+fruits = {"apel": "merah", "pisang":"kuning", "anggur":"ungu"}
+print("Apel berwarna" + fruits["apel"]) # Mendapatkan nilai berdasarkan kunci yang terkait
+
+#Hasil: Apel berwarna merah
 ```
