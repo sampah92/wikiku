@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-23T05:51:46.238Z
+date: 2021-01-23T06:21:18.337Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -15,7 +15,7 @@ Di akhir pelajaran, kita akan membuat aplikasi sederhana untuk menghitung total 
 Python adalah bahasa pemrograman yang sederhana dan mudah dimengerti. Python dapat di gunakan dalam pengembangan web, machine learning, pemrosesan statistik, dan banyak lagi.
 
 
-# String
+## String
 Ayo jalankan program Python pertama kita!
 
 Anda dapat menampilkan karakter dengan mengetik. 
@@ -36,20 +36,20 @@ Hasilnya akan sama.
 Jika Anda tidak menambahkan tanda kutip, hasilnya akan error.
 
 
-# Komentar
+### Komentar
 Menambahkan <kbd>#</kbd> pada awal perintah akan membuat baris perintah itu menjadi komentar.
 ```python
 #ini komentar
 ```
 Komentar tidak akan muncul ketika code dijalankan sehingga Anda bisa menggunakannya untuk catatan.
 
-# Integer
+## Integer
 Anda dapat menggunakan integer (bilangan bulat) dalam pemrograman. Tidak seperti string, `integer tidak memerlukan tanda kutip`. Anda dapat menambah dan mengurangi integer, seperti dalam matematika. Spasi sebelum dan sesudah operator tidak diperlukan, namun akan membuat code lebih mudah dibaca.
 ```python
 print(3+5)
 #jangan apit nomor dalam kutipan
 ```
-## Perbedaan string dan integer
+### Perbedaan string dan integer
 String dan integer diinterpretasikan berbeda dalam pemrograman.
 Seperti pada gambar di bawah, <kbd>3 + 5</kbd> akan menghasilkan <kbd>8</kbd>, hasil penambahannya. Akan tetapi, jika Anda memakai tanda kutip dan membuatnya tipe data string, hasilnya akan menjadi <kbd>3 + 5</kbd>.
 ```python
@@ -61,7 +61,7 @@ print("3+5")
 #ini string
 ```
 
-# Perhitungan
+## Perhitungan
 Dalam Python, Anda dapat melakukan perhitungan lain seperti perkalian dan pembagian, namun dengan simbol yang berbeda dengan yang biasanya Anda pakai dalam matematika.
 <kbd>*</kbd> adalah simbol perkalian dan <kbd>/</kbd> adalah simbol pembagian.
 Anda juga dapat menghitung sisa pembagian dengan <kbd>%</kbd>.
@@ -72,7 +72,7 @@ print(7%3)
 ```
 
 # Variabel
-
+## Variabel
 Selanjutnya, kita akan belajar mengenai `variable`.
 Variable dapat diumpamakan seperti kotak yang memiliki nama dimana Anda dapat menyimpan nilai.
 
@@ -91,7 +91,7 @@ konsep variabel
       Nama <|-- NamaVariabel
       Nomor <|-- NamaVariabel
 ```
-## Mendefinisikan Variable
+### Mendefinisikan Variable
 Untuk menyimpan nilai dalam variable, Anda perlu mendefiniskan variable. Anda dapat melakukannya dengan format berikut: `variable_name = nilai`. Operator <kbd>=</kbd> dalam Python bukan berarti "sama dengan". Operator tersebut digunakan untuk `menetapkan nilai ke variable yang berada di sebelah kiri`. Nama variable tidak perlu ditutup dengan tanda kutip.
 
 ```python
@@ -103,7 +103,7 @@ nama = "john"
  			john --> Name
 ```
 
-## Mencetak Variabel
+### Mencetak Variabel
 Sekarang mari belajar cara mencetak nilai pada variable `name`.
 Anda dapat melakukannya dengan menulis `print(name)`.
 Jika Anda menambahkan tanda kutip pada variable, seperti `print('name')`, name menjadi string, bukan variable.
@@ -202,20 +202,20 @@ Semua jenis perhitungan memilki sintaksis sejenis.
 |x = x / 10|->|x /= 10|
 |x = x % 10|->|x %= 10|
 
-# Penggabungan String
+## Penggabungan String
 Operator + yang kita gunakan untuk perhitungan juga dapat digunakan untuk menggabungkan string. Penggabungan string disebut `string concatenation`. Penggabungan string dapat digunakan untuk string dan variable yang mempunyai tipe data string.
 ```python
 print("hello "+"python") # + berguna sebagai penggabung string
 name = "john"
 print("nama saya "+name) # Dapat menggabungkan string dan variabel
 ```
-# Tipe-tipe Data
+## Tipe-tipe Data
 Sejauh ini, kita sudah mengenal `string dan integer`. Ini disebut tipe data. Ada tipe-tipe data lain di Python, namun mari kita mempelajari keduanya terlebih dahulu.
 ```python
 `Hello Python` ... Tipe String
 3 ... Tipe Integer
 ```
-## Perbedaan Dalam Tipe-tipe Data
+### Perbedaan Dalam Tipe-tipe Data
 Tipe yang berbeda memiliki sifat yang berbeda.
 Contohnya, `print(5 + 7)` menghitung penjumlahannya sedangkan `print('5' + '7')` menggabungkan string.
 ```python
@@ -224,7 +224,7 @@ print(5 + 7) <------- Kalkulasi Numerik
 print(`5` + `7`) <------ Penggabungan String
 # Hasil: 57
 ```
-## Konversi Tipe: str()
+### Konversi Tipe: str()
 Seperti bisa dilihat pada gambar sebelah kiri, Anda tidak bisa menggabungkan string dan integer karena tipe data keduanya berbeda. Untuk menggabungkan dua tipe data, Anda harus melakukan `konversi tipe`. Pada contoh di bawah, Anda harus mengonversi integer ke string, menggunakan `str()`.
 
 - belum dikonversi
@@ -244,7 +244,7 @@ price = 3
 print("Harga apel " + str(price)+ "dolar")
 # Str mengubah integer ke string
 ```
-## Konversi Tipe: int()
+### Konversi Tipe: int()
 Anda juga tidak dapat melakukan perhitungan dengan string dan integer.
 Anda harus mengonversi tipe data string ke integer menggunakan `int()`.
 
@@ -257,9 +257,9 @@ total_price = price * int(count) # penggunaan Int
 print(total_price)
 #Hasil: 300
 ```
-
-# Statement if
-## Control Flow
+# Boolean dan Kondisi
+## Statement if
+### Control Flow
 
 KIta akan belajar mengenai `control flow` sekarang.
 Dalam pemrogramman, kita seringkali ingin mengontrol jalannya code berdasarkan kondisi-kondisi yang dipenuhi.
@@ -276,7 +276,7 @@ if score == 100:		 <--- Jika kondisinya True
 #Hasil: Bagus!
 ```
 
-## Conditional Expression
+### Conditional Expression
 Ada banyak `operator` untuk membuat conditional expression.
 Mari kita lihat `operator perbandingan`, yang dapat digunakan untuk membandingkan kesetaraan kedua nilai.
 Kita dapat menggunakan == untuk mengetahui jika kedua nilai sama, dan != untuk mengetahui jika kedua nilai tidak sama.
@@ -294,7 +294,7 @@ if score == 100 :
 	.
 
 ```
-## Indentasi
+### Indentasi
 Anda harus `mengindentasi` code Anda jika menulis statement `if`.
 Code yang diindentasi di bawah statement if hanya akan berjalan jika kondisi benar. Bagian yang tidak diindentasi akan berjalan tidak peduli kondisi benar atau tidak.
 
@@ -315,9 +315,8 @@ print("terus lanjutkan!")		 <--- tidak masuk ke statement if
 
 #Hasil: "terus lanjutkan!"
 ```
-# Booleans
-## Tab {.tabset}
-## True and False
+## Booleans
+### True and False
 Mari kita mencoba untuk memahami bagaimana `conditional expression` bekerja. Saat Anda mencetak kondisi seperti <kbd>score == 100</kbd>, <kbd>True</kbd> akan muncul. Apa nilai <kbd>True</kbd>?
 ```python
 if score == 100:
@@ -329,7 +328,7 @@ print(score == 100)
 
 #Hasil: True
 ```
-## Booleans
+### Booleans
 
 `True` adalah nilai tipe data boolean.
 Tipe data boolean hanya mempunyai dua nilai, `True` dan `False`. `True` akan muncul jika kondisi dipenuhi, dan `False` jika tidak.
@@ -348,7 +347,7 @@ print(3 == 5) --> False
 --> 		False
 ```
 
-## Statement If dan Nilai Boolean
+### Statement If dan Nilai Boolean
 Mari kita mundur ke statement if untuk melihat interaksinya dengan nilai boolean. Code di bawah statement if dapat dijalankan apabila memenuhi kondisi `True`, dan tidak dapat dijalankan apabila memenuhi kondisi `False`.
 
 ```python
@@ -366,7 +365,7 @@ if score == 100: --> False
 # Karena kondisinya False, code didalam if TIDAK di jalankan
 ```
 
-## Operator Perbandingan (<, <=, >, >=)
+### Operator Perbandingan (<, <=, >, >=)
 Ada operator-operator lain yang dapat digunakan untuk membandingkan nilai. Seperti dalam matematika, Anda dapat menggunakan `<` dan `>` untuk membandingkan angka.
 Anda juga dapat menggunakan `>=` dan `<=` jika perbandingannya inklusif.
 
@@ -384,12 +383,12 @@ Anda juga dapat menggunakan `>=` dan `<=` jika perbandingannya inklusif.
 |8 / 4 < 5|...|True|
 |2 * 5 <= 9|...|False:
 
-# Statement else
-## Apa yang Terjadi Jika Kondisi Salah?
+## Statement else
+### Apa yang Terjadi Jika Kondisi Salah?
 Dengan menggunakan statement `if`, Anda dapat menjalankan code hanya jika kondisinya `True`.
 Selanjutnya, mari belajar cara membuat statement control flow yang dapat menjalankan code berbeda saat kondisi `False`.
 
-## Else
+### Else
 Dengan menggunakan pernyataan `else`, Anda dapat menambahkan code yang ingin Anda jalankan jika kondisi statement `if` adalah False.
 ```python
 score = 50
@@ -402,8 +401,8 @@ __print("Belajar lagi!") # Indentasi harus digunakan dengan benar
 #Hasil: Belajar lagi!
 ```
 
-# Statement elif
-## elif (1)
+## Statement elif
+### elif (1)
 Anda dapat menggunakan `elif` untuk menambah kondisi alternatif pada control flow. Cek contoh `elif` di bawah!
 
 ```python
@@ -418,7 +417,7 @@ else:
 #Hasil: Tidak buruk
 ```
 
-## elif (2)
+### elif (2)
 Anda dapat menambah `elif` sebanyak yang Anda inginkan.
 Akan tetapi, hanya code pada kondisi pertama yang dipenuhi yang akan dijalankan.
 ```python
@@ -439,8 +438,8 @@ else:
 #Hasil: Bagus! <-- conditional expression pertama yang bernilai True akan dijalankan
 ```
 
-# Menggabungkan Kondisi
-## and
+## Menggabungkan Kondisi
+### and
 Mari belajar cara menggabungkan conditional expression!
 Anda dapat menggunakan operator `and` untuk menggabungkan kondisi. Sebagai contoh, `Kondisi1 and Kondisi2` akan menampilkan `True` ketika kedua kondisi terpenuhi.
 
@@ -460,7 +459,7 @@ if hour > 6 and hour < 8:
 #Hasil: Pagi!
 ```
 
-## not
+### not
 Dengan menggunakan `not`, Anda dapat menegaskan suatu kondisi.
 Ini artinya `False` akan muncul jika conditional expression benar dan `True` akan muncul jika salah.
 ```python
@@ -471,8 +470,8 @@ if hour == 12: <-- False
 #Hasil: Bukan siang
 ```
 
-# Menggabungkan Kondisi
-## Merantai Operator Perbandingan
+## Menggabungkan Kondisi
+### Merantai Operator Perbandingan
 Anda dapat menulis ulang kondisi `and` yang menggunakan variable yang sama dengan cara yang ditunjukkan gambar di bawah! Hal ini disebut `merantai perbandingan operator`.
 
 ```python
@@ -489,12 +488,12 @@ if 6 < hour < 8: # Anda dapat merantai operator tanpa menggunakan and
 
 #Hasil: Pagi!
 ```
-
-# Menghitung Harga
-## Menghitung Total Belanja
+# Aplikasi Belanja
+## Menghitung Harga
+### Menghitung Total Belanja
 Menggabungkan apa yang sudah kita pelajari, kita akan membuat program sederhana untuk menghitung total harga belanja.
 Seperti pada gambar di bawah, kita akan mencetak hasil perhitungan berdasarkan jumlah apel yang dimasukkan pada console.
-## Mencetak Jumlah Pembayaran
+### Mencetak Jumlah Pembayaran
 Pertama-tama, mari mencetak uang yang dibutuhkan untuk membeli beberapa apel!
 ```python
 # Berikan 2 ke variable apple_price 
@@ -512,11 +511,11 @@ print('Anda akan membeli ' + str(count) + ' apel')
 # Dengan menggunakan variable total_price, cetak 'Harga total adalah .. dolar'
 print('Harga total adalah ' + str(total_price) + ' dolar')
 ```
-## Mengubah Jumlah Apel
+### Mengubah Jumlah Apel
 Pada pelajaran sebelumnya, jumlah apel sudah ditentukan.
 Mari kita ubah sehingga Anda dapat mengisi jumlah apel yang akan Anda beli.
-# Mendapatkan Input
 ## Mendapatkan Input
+### Mendapatkan Input
 `input()` memungkinkan Anda dapat mengisi angka pada console ketika menjalankan code, dan menerima nilai yang dimasukkan.
 Dengan menulis `variable = input('string yang ingin Anda tampilkan di console')`, nilai akan ditentukan ke variable.
 ```python
@@ -529,7 +528,7 @@ print("Anda akan membeli " + input_count + "apel")
 # Mau berapa apel?:
 # Hasil: Anda membeli 3 Apel
 ```
-## Tipe Konversi Nilai Input
+### Tipe Konversi Nilai Input
 
 Nilai yang Anda dapatkan dari `input()` adalah string, bahkan jika Anda mengisinya dengan angka. Jika Anda ingin menggunakan nilainya sebagai integer untuk sebuah perhitungan, Anda harus mengonversinya ke tipe data integer, seperti gambar di bawah.
 ```python
@@ -543,7 +542,7 @@ print("Harga total adalah" + str(total_price) + "dolar")
 # Anda akan membeli 3 apel
 # Harga total adalah 6 dolar
 ```
-### Contoh
+#### Contoh
 ```python
 apple_price = 2
 
@@ -558,10 +557,10 @@ print('Anda akan membeli ' + str(count) + ' apel')
 print('Harga total adalah ' + str(total_price) + ' dolar')
 ```
 
-# Control Flow
-## Beberapa Kondisi!
+## Control Flow
+### Beberapa Kondisi!
 Akhirnya, mari menggunakan control flow untuk mengetahui apakah Anda punya cukup uang untuk membeli apel.
-### contoh
+#### contoh
 ```python
 apple_price = 2
 # Berikan 10 ke variable money 
