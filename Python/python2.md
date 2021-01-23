@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T13:31:54.046Z
+date: 2021-01-23T13:32:52.864Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -123,6 +123,10 @@ foods = ["pasta", "gulai", "sushi"]
 print("Saya suka " + foods[1])
 print("Saya suka " + foods[2])
 print("Saya suka " + foods[3])
-
 # Mencetak satu per satu tidak efisien
+
+#Hasil:
+#Saya suka pasta
+#Saya suka gulai
+#Saya suka sushi
 ```
