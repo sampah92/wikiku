@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T13:16:30.599Z
+date: 2021-01-23T13:26:04.402Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -101,4 +101,4 @@ foods[1] = "pizza" # Memperbarui element index 1
 #Hasil: ["pasta", "gulai", "sushi"]
 # Element di index 1 diperbarui
 ```
-##
+## Menambah Element Pada List
