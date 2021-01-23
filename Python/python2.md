@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T11:49:58.829Z
+date: 2021-01-23T11:56:33.026Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -63,3 +63,11 @@ Penggunaan
 ```
 ## Menetapkan List ke Variable
 Seperti integer dan string, Anda dapat menentukan list ke dalam satu variable. Sesuai norma penamaan yang berlaku, nama variable bersifat plural, seperti `foods`, karena variable akan mengandung banyak element.
+
+```python
+foods = ["pasta", "gulai", "sushi"]  # foods = nama variabel
+print(foods)
+
+#Hasil: ["pasta", "gulai", "sushi"]
+# List dicetak sebagaimana adanya
+```
