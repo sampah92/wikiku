@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-23T05:49:45.042Z
+date: 2021-01-23T05:51:46.238Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -558,3 +558,30 @@ print('Anda akan membeli ' + str(count) + ' apel')
 print('Harga total adalah ' + str(total_price) + ' dolar')
 ```
 
+# Control Flow
+## Beberapa Kondisi!
+Akhirnya, mari menggunakan control flow untuk mengetahui apakah Anda punya cukup uang untuk membeli apel.
+### contoh
+```python
+apple_price = 2
+# Berikan 10 ke variable money 
+money = 10
+
+input_count = input('Mau berapa apel?: ')
+count = int(input_count)
+total_price = apple_price * count
+
+print('Anda akan membeli ' + str(count) + ' apel')
+print('Harga total adalah ' + str(total_price) + ' dolar')
+
+# Tambahkan control flow berdasarkan perbandingan antara money dan total_price
+if money > total_price:
+    print('Anda telah membeli ' + str(count) + ' apel')
+    print('Uang Anda tinggal ' + str(money - total_price) + ' dolar')
+elif money == total_price:
+    print('Anda telah membeli ' + str(count) + ' apel')
+    print('Dompet Anda kosong')
+else:
+    print('Uang Anda tidak mencukupi')
+    print('Anda tidak dapat membeli apel sebanyak itu')
+```
