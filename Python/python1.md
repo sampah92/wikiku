@@ -2,7 +2,7 @@
 title: Python I
 description: Python adalah bahasa perograman yang sangat bermanfaat dan dapat digunakan untuk website, machine learning, dan banyak lagi.
 published: true
-date: 2021-01-23T06:27:03.725Z
+date: 2021-01-23T06:33:03.378Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-22T11:01:26.652Z
@@ -15,8 +15,8 @@ Di akhir pelajaran, kita akan membuat aplikasi sederhana untuk menghitung total 
 Python adalah bahasa pemrograman yang sederhana dan mudah dimengerti. Python dapat di gunakan dalam pengembangan web, machine learning, pemrosesan statistik, dan banyak lagi.
 
 # Dasar-dasar
-# Tab {.tabset}
 ## String
+### Tab {.tabset}
 Ayo jalankan program Python pertama kita!
 
 Anda dapat menampilkan karakter dengan mengetik. 
@@ -39,6 +39,7 @@ Jika Anda tidak menambahkan tanda kutip, hasilnya akan error.
 
 ### Komentar
 Menambahkan <kbd>#</kbd> pada awal perintah akan membuat baris perintah itu menjadi komentar.
+#### Contoh
 ```python
 #ini komentar
 ```
