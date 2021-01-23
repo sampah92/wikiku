@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T13:56:39.767Z
+date: 2021-01-23T13:58:51.871Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -167,3 +167,6 @@ Seperti list, dictionary python digunakan untuk mengelola kelompok data. Perbeda
 
 ### Bagaimana Cara Membuat Dictionary
 Anda dapat membuat dictionary sebagai berikut: `{kunci1: nilai1, kunci2: nilai2, ..}`. Pada kebanyakan kasus, kita menggunakan string sebagai kunci. Dictionary ditutup dengan tanda `{}` sementara list ditutup dengan tanda `[]`. Jangan lupa untuk menulis `:` diantara pasangan kunci dan nilai, dan `,` diantara element-element.
+```python
+fruits = {"apel": "merah", "pisang":"kuning", "anggur":"ungu"}
+```
