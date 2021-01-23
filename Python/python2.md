@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T14:14:57.121Z
+date: 2021-01-23T14:18:01.143Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -215,3 +215,14 @@ print(fruits)
 Seperti list, Anda dapat menggunakan loop `for` untuk melakukan pengulangan pada dictionary dengan menulis `for nama_variable in nama_dictionary:`.
 Kunci dari tiap element ditentukan ke variable sementara.
 Dengan demikian, Anda bisa mendapatkan nilai yang sesuai dengan variable, seperti bisa dilihat pada gambar di bawah.
+```python
+fruits = {"apel": "merah", "pisang":"kuning", "anggur":"ungu"}
+
+for fruit_key in fruits: # Setiap kunci ditetapkan ke variabel "fruit_key"
+		print(fruit_key + "berwarna" + fruits[fruit_key])
+    
+#Hasil: Apel berwarna merah
+#Hasil: pisang berwarna kuning
+#Hasil: Anggur berwarna ungu
+
+```
