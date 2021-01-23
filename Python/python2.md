@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-23T14:12:52.815Z
+date: 2021-01-23T14:14:57.121Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -210,3 +210,8 @@ print(fruits)
 
 #Hasil: {"presik": "merah jambu", "apel": "merah", "pisang":"kuning", "anggur":"ungu"}
 ```
+## Loop for (2)
+### Mendapatkan Semua Element Pada Dictionary
+Seperti list, Anda dapat menggunakan loop `for` untuk melakukan pengulangan pada dictionary dengan menulis `for nama_variable in nama_dictionary:`.
+Kunci dari tiap element ditentukan ke variable sementara.
+Dengan demikian, Anda bisa mendapatkan nilai yang sesuai dengan variable, seperti bisa dilihat pada gambar di bawah.
