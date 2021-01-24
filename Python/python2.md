@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T15:33:54.466Z
+date: 2021-01-24T15:38:23.495Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -251,7 +251,7 @@ while x <= 100:
 #       99
 #       100
 ```
-## Cara Menulis Loop While
+### Cara Menulis Loop While
 Sintaksis untuk loop while adalah sebagai berikut:
 `while <conditional expression>:`
 
