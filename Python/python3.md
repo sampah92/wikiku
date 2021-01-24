@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-24T17:26:13.518Z
+date: 2021-01-24T17:30:00.719Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -39,9 +39,24 @@ def gree():
 Function tidak akan dijalankan hanya dengan mendefinisikannya, Anda perlu `memanggil` function untuk menjalankan code didalamnya. Untuk memanggil sebuah function, Anda cukup menulis `function_name()`. Perlu diingat bahwa function hanya dapat dipanggil setelah Anda mendefinisikannya.
 ```python
 def greet():
-		print("halo"
+		print("halo")
 
 greet()	# Memanggil function
 
 #Hasil: halo
+```
+## Argument dan Parameter
+### Apa Itu Argument?
+Anda dapat memberikan nilai ke sebuah function ketika Anda memanggilnya. Nilai ini disebut `argument` dan dapat digunakan berulang kali di dalam sebuah function. Dengan menggunakan argument, Anda dapat membuat sebuah function untuk me-return nilai yang berbeda berdasarkan argument yang Anda berikan.
+
+### Function dengan Argument
+Untuk memberikan `argument` ke sebuah function, function harus mempunyai variable untuk menerimanya, variable ini di sebut `parameter`. Pada contoh di bawah, function <kbd>greet</kbd> memiliki parameter <kbd>name</kbd> untuk menerima sebuah argument.
+```python
+def function_name(parameter):
+		              # variabel yang dibutuhkan
+    #Code
+```
+```python
+def greet(name):
+		print("halo" + name)
 ```
