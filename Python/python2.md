@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T16:14:05.247Z
+date: 2021-01-24T16:19:20.663Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -323,3 +323,6 @@ x += 1 <----- # Bukan bagian dar loop karena code tidak di indentasikan!
 
 # 1 dicetak terus menerus (infinite loop)
 ```
+<div style="background-color:black;color:white;padding:20px;">
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
