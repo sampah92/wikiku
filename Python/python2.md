@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T16:28:54.653Z
+date: 2021-01-24T16:50:08.354Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -336,4 +336,21 @@ for number in numbers:
 #Hasil: 1
 #       2
 #       3
+```
+## Statement continue
+### Continue
+Tidak seperti statement `break` yang akan mengakhiri loop, statement `continue` melewatkan loop untuk iterasi tertentu. Statement continue dapat digunakan dengan cara yang sama pada loop for dan loop while.
+```python
+numbers = [1, 2, 3, 4, 5, 6]
+for number in numbers:
+		print(number)
+    
+    # Melewati sisa code didalam loop jika nilai angka dapat dibagi dengan 2
+    if number % 2 == 0:
+    		continue
+    print(number)
+
+#Hasil: 1
+#       3
+#       5
 ```
