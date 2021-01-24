@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T15:38:23.495Z
+date: 2021-01-24T16:04:21.210Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -262,3 +262,22 @@ while x <= 100: # Conditional expression
 		print(x)
     x += 1
 ```
+### Alur Loop while
+Mari belajar alur loop while dengan gambar di bawah.
+Pertama-tama, variable didefinisikan sebelum loop `while`.
+Pada setiap iterasi loop while, kondisi diperiksa dan variable diperbarui.
+Siklus terus berlanjut sampai kondisi mengevaluasi `False`.
+```python
+x = 1 # Definisikan variable untuk loop while
+while x <= 100: # Conditional expression
+		print(x)
+    x += 1 # Nilai dari x bertambah 1 setiap kali loop-nya dijalankan
+```
+
+| x<br>(Hitungan loop) |             x <= 100            |           Code yang dijalankan           |
+|:--------------------:|:-------------------------------:|:----------------------------------------:|
+|           1          | <font color="green">True</font> |            print(x)<br>x += 1            |
+|           2          | <font color="green">True</font> |            print(x)<br>x += 1            |
+|      .<br>.<br>.     | <font color="green">True</font> |            print(x)<br>x += 1            |
+|          100         | <font color="green">True</font> |            print(x)<br>x += 1            |
+|          101         |  <font color="red">False</font> | Loop berhenti ketika<br>kondisinya False |
