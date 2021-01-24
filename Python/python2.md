@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T16:06:24.776Z
+date: 2021-01-24T16:09:14.530Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -285,3 +285,20 @@ while x <= 100: # Conditional expression
 ### Loop Infinite (1)
 Jika Anda lupa untuk memperbarui nilai variable yang digunakan pada kondisi di akhir loop `while`, `loop infinite (loop tak terbatas)` dapat terjadi karena kondisi selalu mengevaluasi <font color="green">True</font>.
 Loop Infinite memberikan beban yang besar pada komputer, jadi pastikan kondisi akan mengevaluasi <font color="red">False</font> pada titik tertentu.
+```python
+x = 1 
+while x <= 100: # Mengambil True selamanya
+		print(x)
+    			<---- # Nilai X tidak dipeprbabrui
+
+#Hasil: 1
+#       1
+#       1
+#       1
+#       .
+#       .
+#       .
+#       .
+
+# 1 dicetak terus menerus (infinite loop)
+```
