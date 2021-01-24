@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-24T17:30:00.719Z
+date: 2021-01-24T17:33:28.164Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -59,4 +59,16 @@ def function_name(parameter):
 ```python
 def greet(name):
 		print("halo" + name)
+```
+### Memberikan Argument ke Sebuah Function
+Kita bisa memberikan argument dengan memanggil sebuah function dengan: <kbd>function_name(argument)</kbd>. Saat function dipanggil, `argument` yang diberikan akan ditentukan ke `parameter` untuk digunakan di dalam function.
+```python
+def greet(name): # Parameter name
+		print("halo" + name)
+    
+greet("john") # john diberikan ke parameter name
+greet("kate")
+
+#Hasil: halo john
+#Hasil: halo kate
 ```
