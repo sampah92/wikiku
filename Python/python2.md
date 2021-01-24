@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T15:29:09.363Z
+date: 2021-01-24T15:33:54.466Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -229,6 +229,7 @@ for fruit_key in fruits: # Setiap kunci ditetapkan ke variabel "fruit_key"
 
 # Bekerja dengan Loop
 ## Loop while
+### Loop while
 Anda juga dapat menggunakan `loop while` untuk mengulang code.
 Dengan loop `while`, code akan diulangi sampai kondisi tertentu, seperti jika `x <= 100 `mengevaluasi `False`.
 Mari belajar bagaimana cara menulis loop `while` pada slide berikutnya!
@@ -249,4 +250,15 @@ while x <= 100:
 #       .
 #       99
 #       100
+```
+## Cara Menulis Loop While
+Sintaksis untuk loop while adalah sebagai berikut:
+`while <conditional expression>:`
+
+Code pada loop while akan terus berulang selama kondisi `True`.
+```python
+x = 1
+while x <= 100: # Conditional expression
+		print(x)
+    x += 1
 ```
