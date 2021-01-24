@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T16:24:23.182Z
+date: 2021-01-24T16:25:23.529Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -323,3 +323,6 @@ x += 1 <----- # Bukan bagian dar loop karena code tidak di indentasikan!
 
 # 1 dicetak terus menerus (infinite loop)
 ```
+## Statement break
+### Break
+Anda dapat menggunakan statement `break` untuk keluar dari loop. Statement break biasanya digabung dengan statement `if`, seperti pada gambar di bawah. Ini dapat digunakan seperti pada loop while.
