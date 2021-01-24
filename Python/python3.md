@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-24T17:37:18.588Z
+date: 2021-01-24T17:42:41.736Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -81,4 +81,24 @@ def greet(name): # Parameter name
 print(name) <---- # diluar scope
 
 # ERROR! - Variable name tidak dapat digunakan diluar function
+```
+## Beberapa Parameter
+### Function dengan Banyak Parameter
+Anda dapat menambahkan banyak parameter ke sebuah function dengan memisahkan parameter tersebut dengan tanda koma <kbd>,</kbd>.
+Pada contoh dibawah, `name` adalah parameter pertama, dan `message` adalah parameter kedua.
+```python
+def greet(name, message):
+		print(name + "," + message)
+```
+### Memberikan Beberapa Argument ke Sebuah Function
+Contoh dibawah menunjukkan bagaimana cara memberikan beberapa argument ke sebuah function. Saat memberikan argument, Anda harus menulisnya sesuai dengan urutan penulisan parameter.
+```python
+def greet(name, message):
+		print(name + "," + message)
+
+greet("john", "senang bertemu anda")
+       name					message
+# Argumen harus diberikan sesuai urutan parameter
+
+#Hasili: john, senang bertemu anda
 ```
