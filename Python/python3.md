@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-24T17:33:28.164Z
+date: 2021-01-24T17:37:18.588Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -71,4 +71,14 @@ greet("kate")
 
 #Hasil: halo john
 #Hasil: halo kate
+```
+### Scope
+Variable mempunyai `scope`, sesuatu yang merujuk ke rentang tertentu dimana variable dapat diakses. Scope dari parameter dan variable yang di definisikan didalam sebuah function akan terbatas pada function tersebut. Maka dari itu, mereka tidak dapat digunakan diluar function itu.
+```python
+def greet(name): # Parameter name
+		print(name) # hanya dapat digunakan didalam function ini
+    
+print(name) <---- # diluar scope
+
+# ERROR! - Variable name tidak dapat digunakan diluar function
 ```
