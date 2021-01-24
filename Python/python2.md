@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T16:11:05.897Z
+date: 2021-01-24T16:14:05.247Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -305,3 +305,21 @@ while x <= 100: # Mengambil True selamanya
 ### Loop Infinite (2)
 Kemungkinan lain yang dapat menyebabkan loop tak terbatas adalah lupa mengindentasi code untuk memperbarui variable.
 Code tidak akan termasuk dalam loop `while` dan kondisi akan selalu mengevaluasi `True`. Loop tidak akan pernah berhenti.
+```python
+x = 1 
+while x <= 100: # Mengambil True selamanya
+		print(x)
+    			<---- # Nilai X tidak diperbarui
+x += 1 <----- # Bukan bagian dar loop karena code tidak di indentasikan!
+
+#Hasil: 1
+#       1
+#       1
+#       1
+#       .
+#       .
+#       .
+#       .
+
+# 1 dicetak terus menerus (infinite loop)
+```
