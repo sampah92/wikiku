@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T16:25:23.529Z
+date: 2021-01-24T16:28:54.653Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -326,3 +326,14 @@ x += 1 <----- # Bukan bagian dar loop karena code tidak di indentasikan!
 ## Statement break
 ### Break
 Anda dapat menggunakan statement `break` untuk keluar dari loop. Statement break biasanya digabung dengan statement `if`, seperti pada gambar di bawah. Ini dapat digunakan seperti pada loop while.
+```python
+numbers = [1, 2, 3, 4, 5, 6]
+for number in numbers:
+		print(number)
+    if number == 3:  # Loop berhenti ketika nilai number menajdi 3
+    		break
+
+#Hasil: 1
+#       2
+#       3
+```
