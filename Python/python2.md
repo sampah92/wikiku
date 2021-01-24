@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T16:56:54.101Z
+date: 2021-01-24T16:59:15.230Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -354,8 +354,8 @@ for number in numbers:
 #       3
 #       5
 ```
-## Contoh penggunaan
-### Aplikasi belanja
+# Contoh penggunaan
+## Aplikasi belanja
 ```python
 items = {'apel': 2, 'pisang': 4, 'jeruk': 6}
 for item_name in items:
@@ -377,7 +377,7 @@ for item_name in items:
     # Dengan menggunakan total_price dan type conversion, cetak 'Harga total adalah ___ dolar'
     print('Harga total adalah ' + str(total_price) + ' dolar')
 ```
-### Control flow
+## Control flow
 ```python
 # Berikan 20 ke variable money
 money = 20
@@ -404,7 +404,7 @@ for item_name in items:
         print('Uang Anda tidak mencukupi')
         print('Anda tidak dapat membeli ' + item_name + ' sebanyak itu')
 ```
-### Uang yang tersisa
+## Uang yang tersisa
 ```python
 money = 20
 items = {'apel': 2, 'pisang': 4, 'jeruk': 6}
