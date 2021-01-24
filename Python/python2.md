@@ -2,7 +2,7 @@
 title: Python II
 description: kita akan belajar bagaimana mengelola kumpulan data dan bekerja dengan loop.
 published: true
-date: 2021-01-24T16:50:08.354Z
+date: 2021-01-24T16:55:10.778Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T06:51:27.942Z
@@ -353,4 +353,54 @@ for number in numbers:
 #Hasil: 1
 #       3
 #       5
+```
+## Contoh penggunaan
+### Aplikasi belanja
+```python
+items = {'apel': 2, 'pisang': 4, 'jeruk': 6}
+for item_name in items:
+    print('--------------------------------------------------')
+    print('Harga setiap ' + item_name + ' ' + str(items[item_name]) + ' dolar')
+    
+    # Dapatkan nilai menggunakan input(), dan berikan ke variable input_count 
+    input_count = input('Mau berapa ' + item_name + '?: ')
+    
+    # Cetak 'Anda akan membeli ___ ___' menggunakan input_count dan item_name
+    print('Anda akan membeli ' + input_count + ' ' + item_name)
+    
+    # Ubah input_count ke integer dan berikan ke variable count 
+    count = int(input_count)
+    
+    # Kalikan harga setiap item dan variable count, dan berikan ke variable total_price 
+    total_price = items[item_name] * count
+    
+    # Dengan menggunakan total_price dan type conversion, cetak 'Harga total adalah ___ dolar'
+    print('Harga total adalah ' + str(total_price) + ' dolar')
+```
+### Control flow
+```python
+# Berikan 20 ke variable money
+money = 20
+
+items = {'apel': 2, 'pisang': 4, 'jeruk': 6}
+for item_name in items:
+    print('--------------------------------------------------')
+    # Menggunakan variable money, cetak 'Anda memiliki ___ dolar di dompet Anda'
+    print('Anda memiliki ' + str(money) + ' dolar di dompet Anda')
+    print('Harga setiap ' + item_name + ' ' + str(items[item_name]) + ' dolar')
+    
+    input_count = input('Mau berapa ' + item_name + '?:')
+    print('Anda akan membeli ' + input_count + ' ' + item_name)
+    
+    count = int(input_count)
+    total_price = items[item_name] * count
+    print('Harga total adalah ' + str(total_price) + ' dolar')
+    
+    # Tambahkan control flow berdasarkan perbandingan dari money dan total_price
+    if money >= total_price:
+        print('Anda telah membeli ' + input_count + ' ' + item_name)
+        money -= total_price
+    else:
+        print('Uang Anda tidak mencukupi')
+        print('Anda tidak dapat membeli ' + item_name + ' sebanyak itu')
 ```
