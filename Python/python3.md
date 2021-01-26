@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T07:10:20.018Z
+date: 2021-01-26T07:13:52.567Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -226,3 +226,12 @@ print(sum)
 ```
 ### Beberapa Return
 Dengan menambahkan control flow, Anda dapat menggunakan `return` berkali-kali. Pada contoh di bawah, jika nilai parameter `name` sama dengan `'Tamu'`, function akan berakhir setelah mengembalikan `'Siapa nama Anda?'`. Code setelahnya tidak akan di jalankan.
+```python
+def greet(name = "tamu"):
+		if name == "tamu":
+    		return "siapa nama anda?"
+    return name + ",selamat datang"
+print (greet())
+
+#Hasil: siapa nama anda?
+```
