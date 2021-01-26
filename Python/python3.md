@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T07:13:52.567Z
+date: 2021-01-26T07:15:10.388Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
