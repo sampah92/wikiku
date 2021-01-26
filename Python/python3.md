@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T06:33:04.712Z
+date: 2021-01-26T06:35:50.621Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -116,4 +116,23 @@ hello("kate")
 
 #Hasil: john, senang ketemu lagi
 #       kate, senang bertemu anda
+```
+# Aplikasi Batu Kertas Gunting
+## Mendapatkan Masukan
+### Batu Kertas Gunting
+Sejauh ini, kita sudah belajar dasar-dasar function.
+Sekarang, mari menggunakannya untuk membuat permainan Batu Kertas Gunting menjadi lebih baik!
+### Menerima Nama Pengguna
+Mari kita beri nama pengguna, lalu mencetaknya.
+```python
+def print_hand(hand, name='Tamu'):
+    print(name + ' memilih: ' + hand)
+
+print('Memulai Permainan Batu Kertas Gunting!')
+
+# Dapatkan input, dan tetapkan ke variable player_name
+player_name = input('Masukkan nama Anda: ')
+
+# Tambahkan argument ke dua ke print_hand
+print_hand('Batu', player_name)
 ```
