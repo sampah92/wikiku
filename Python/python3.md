@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T09:20:39.721Z
+date: 2021-01-26T09:23:52.792Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -293,4 +293,16 @@ else:
 ### Membagi File
 Code pada file `script.py` kita sudah menjadi sangat panjang.
 Semakin panjang code Anda, akan semakin sulit untuk dibaca dan dimengerti, ini akan berpotensi menimbulkan bug yang tidak diinginkan. Untuk mencegah ini, mari belajar untuk membagi code ke beberapa file terpisah.
-### Menggunakan Module
+### Module
+Kita dapat memindahkan sebagian code ke file terpisah, lalu, mengimportnya sebagai `module`. Module adalah file yang dapat diimport ke file lain. Dengan mengimport module, Anda dapat menggunakan function di dalam modul tersebut. Kita akan memindahkan beberapa function di dalam `script.py` ke `utils.py`.
+
+pindahkan script ini ke `utils.py`
+```python
+def validate(hand):
+		.
+    .
+def print_hand(hand, name="tamu"):
+		.
+    .
+def judge(player, computer):
+```
