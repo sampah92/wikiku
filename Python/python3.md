@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T07:18:06.733Z
+date: 2021-01-26T09:07:16.395Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -211,6 +211,85 @@ print (greet())
 
 #Hasil: siapa nama anda?
 ```
-## Aplikasi Batu Kertas Gunting (2)
-### Dari sini, kita akan menyelesaikan permainan Batu Kertas Gunting.
+# Aplikasi Batu Kertas Gunting (2)
+## Menambah Komputer
+Dari sini, kita akan menyelesaikan permainan Batu Kertas Gunting.
 Kita akan menambahkan function sehingga pengguna dapat bermain melawan komputer. Selain itu, kita juga akan belajar tentang `module`.
+## Memilih Tangan
+Mari memulai dengan mencetak tangan yang dipilih oleh komputer.
+```python
+def validate(hand):
+    if hand < 0 or hand > 2:
+        return False
+    return True
+
+def print_hand(hand, name='Tamu'):
+    hands = ['Batu', 'Kertas', 'Gunting']
+    print(name + ' memilih: ' + hands[hand])
+
+print('Memulai permainan Batu Kertas Gunting!')
+player_name = input('Masukkan nama Anda: ')
+
+print('Pilih tangan: (0: Batu, 1: Kertas, 2: Gunting)')
+player_hand = int(input('Masukkan nomor (0-2): '))
+
+if validate(player_hand):
+    # Tetapkan 1 ke variable computer_hand 
+    computer_hand = 1
+    
+    print_hand(player_hand, player_name)
+    # Panggil function print_hand dengan computer_hand dan 'Komputer' sebagai argument
+    print_hand(computer_hand, 'Komputer')
+    
+else:
+    print('Mohon masukkan nomor yang benar')
+```
+## Menilai Pemenang
+Mari membuat function untuk menilai siapa yang memenangkan permainan.
+```python
+def validate(hand):
+    if hand < 0 or hand > 2:
+        return False
+    return True
+
+def print_hand(hand, name='Tamu'):
+    hands = ['Batu', 'Kertas', 'Gunting']
+    print(name + ' memilih: ' + hands[hand])
+
+# Definisikan function judge 
+def judge(player, computer):
+    # Tambahkan control flow berdasarkan perbandingan antara player dan computer
+    if player == computer:
+        return 'Seri'
+    elif player == 0 and computer == 1:
+        return 'Kalah'
+    elif player == 1 and computer == 2:
+        return 'Kalah'
+    elif player == 2 and computer == 0:
+        return 'Kalah'
+    else:
+        return 'Menang'
+
+print('Memulai permainan Batu Kertas Gunting!')
+player_name = input('Masukkan nama Anda: ')
+
+print('Pilih tangan: (0: Batu, 1: Kertas, 2: Gunting)')
+player_hand = int(input('Masukkan nomor (0-2): '))
+
+if validate(player_hand):
+    computer_hand = 1
+    
+    print_hand(player_hand, player_name)
+    print_hand(computer_hand, 'Komputer')
+    
+    # Tetapkan nilai return dari judge ke variable result 
+    result = judge(player_hand, computer_hand)
+    # Cetak variable result 
+    print('Hasil: ' + result)
+else:
+    print('Mohon masukkan nomor yang benar')
+```
+## Menggunakan Module
+### Membagi File
+Code pada file `script.py` kita sudah menjadi sangat panjang.
+Semakin panjang code Anda, akan semakin sulit untuk dibaca dan dimengerti, ini akan berpotensi menimbulkan bug yang tidak diinginkan. Untuk mencegah ini, mari belajar untuk membagi code ke beberapa file terpisah.
