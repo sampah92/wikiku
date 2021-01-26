@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T07:03:00.254Z
+date: 2021-01-26T07:04:44.482Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -180,9 +180,27 @@ def add(a, b):
 Saat Anda memanggil sebuah function yang mempunyai `nilai return`, pemanggil akan digantikan dengan nilai.
 Pada contoh di bawah, `add(1,3)` akan digantikan dengan `4`, dan disimpan ke variable `sum`.
 ```python
-def add(a, b):
-		return a + b
-sum = add(1, 3)
-print(sum)
+# Definisikan function validate 
+def validate(hand):
+    # Tambahkan control flow berdasarkan nilai hand
+    if hand < 0 or hand > 2:
+        return False
+    else:
+        return True
 
-#Hasil: 4
+def print_hand(hand, name='Tamu'):
+    hands = ['Batu', 'Kertas', 'Gunting']
+    print(name + ' memilih: ' + hands[hand])
+
+print('Memulai permainan Batu Kertas Gunting!')
+player_name = input('Masukkan nama Anda: ')
+
+print('Pilih tangan: (0: Batu, 1: Kertas, 2: Gunting)')
+player_hand = int(input('masukkan nomor (0-2): '))
+
+# Tambahkan control flow berdasarkan nilai return dari function validate 
+if validate(player_hand):
+    print_hand(player_hand, player_name)
+else:
+    print('Mohon masukkan nomor yang benar')
+```
