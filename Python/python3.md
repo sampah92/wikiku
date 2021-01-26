@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T07:00:40.124Z
+date: 2021-01-26T07:01:19.001Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -175,3 +175,7 @@ def function_name():
 def add(a, b):
 		return a + b    # return jumlahnya ke tempat dimana function dipanggil
 ```
+### Menerima Nilai Return
+
+Saat Anda memanggil sebuah function yang mempunyai <kbd>nilai return</kbd>, pemanggil akan digantikan dengan nilai.
+Pada contoh di bawah, `add(1,3)` akan digantikan dengan `4`, dan disimpan ke variable `sum`.
