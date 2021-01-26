@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T06:56:35.652Z
+date: 2021-01-26T07:00:40.124Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -167,3 +167,11 @@ Untuk melakukannya, kita akan belajar topik selanjutnya, nilai return.
 Saat kita ingin menggunakan hasil dari sebuah function, kita dapat menggunakan <kbd>return</kbd>. Pada contoh di bawah, function `add` menjadikan `3` dan `7` sebagai argument, dan mengembalikan `10` ke pemanggilnya.
 ### Function dengan Nilai Return
 Untuk mengirim nilai ke asal sebuah function yang dipanggil, kita menggunakan statement `return`. Dengan menulis `return nilai`, nilai dapat dikembalikan untuk digunakan di luar function.
+```python
+def function_name():
+		return nilai 		# return nilai ke tempat dimana  function dipanggil
+```
+```python
+def add(a, b):
+		return a + b    # return jumlahnya ke tempat dimana function dipanggil
+```
