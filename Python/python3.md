@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T06:44:59.640Z
+date: 2021-01-26T06:46:08.707Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -159,3 +159,7 @@ player_hand = int(input('Masukkan nomor (0-2): '))
 # Ubah argument pertama ke player_hand
 print_hand(player_hand, player_name)
 ```
+## Nilai Return
+### Memvalidasi Nilai Input
+Sejauh ini, program kita menghasilkan erorr jika pengguna memasukkan nomor selain `0`, `1`, atau `2` sehingga kita perlu memvalidasinya.
+Untuk melakukannya, kita akan belajar topik selanjutnya, nilai return.
