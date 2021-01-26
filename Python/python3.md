@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T06:41:13.869Z
+date: 2021-01-26T06:44:59.640Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -141,10 +141,21 @@ print_hand('Batu', player_name)
 Mari biarkan pengguna memilih tangan dengan nomor `0`, `1`, atau `2`.
 Kita akan menyiapkan list yang berisi `'Batu'`, `'Kertas'`, dan `'Gunting'`, dan saat pengguna memilih nomor, kita akan mencetak element yang sesuai dengan nomor index.
 ```python
-def print_hand(hand):
-		hands=["Batu", "kertas", "Gunting"]
-             0         1         2
-             #Nomor index berkorespondensi ke nomor yang diterima
+def print_hand(hand, name='Tamu'):
+    # Tetapkan list hands ke variable hands 
+    hands = ['Batu', 'Kertas', 'Gunting']
+    
+    # Memperbarui dengan menggunakan element dari variable hands 
+    print(name + ' memilih: ' + hands[hand])
 
-		print(name + "memilih:" + hands[hand])
-                               #cetak element dari list hand
+print('Memulai Permainan Batu Kertas Gunting!')
+player_name = input('Masukkan nama Anda: ')
+# Cetak 'Pilih tangan: (0: Batu, 1: Kertas, 2: Gunting)'
+print('Pilih tangan: (0: Batu, 1: Kertas, 2: Gunting)')
+
+# Dapatkan input, ubah, dan tetapkan ke variable player_hand 
+player_hand = int(input('Masukkan nomor (0-2): '))
+
+# Ubah argument pertama ke player_hand
+print_hand(player_hand, player_name)
+```
