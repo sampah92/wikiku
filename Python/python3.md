@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T07:06:34.307Z
+date: 2021-01-26T07:09:14.765Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -214,3 +214,13 @@ else:
 ## Return
 ### Bagaiman Return Bekerja
 `Return` tidak hanya mengirim balik nilai return ke pemanggil, namun juga menghentikan function. Ini berarti, apapun yang tertulis setelah `return` pada function tidak akan di jalankan.
+```python
+def add(a, b):
+		return a + b
+    print("hello world")  # Baris setelah return tidak akan dijalankan
+sum = add(1, 3)
+print(sum)
+
+#Hasil: 4
+# "Hello world" tidak dicetak 
+```
