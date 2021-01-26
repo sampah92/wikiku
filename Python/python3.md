@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-24T17:47:51.934Z
+date: 2021-01-26T06:33:04.712Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -106,3 +106,14 @@ greet("john", "senang bertemu anda")
 ### Nilai Default Parameter
 Anda dapat mengatur nilai default parameter.
 Nilai default akan digunakan ketika tidak ada argument yang disediakan untuk parameter.
+```python
+def greet(name, message="senang bertemu anda")
+                 # Default parameter
+		print(name + "," + message)
+    
+hello("john", "sampai ketemu lagi")
+hello("kate")
+
+#Hasil: john, senang ketemu lagi
+#       kate, senang bertemu anda
+```
