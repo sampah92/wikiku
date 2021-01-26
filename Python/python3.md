@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T07:16:09.728Z
+date: 2021-01-26T07:18:06.733Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -211,3 +211,6 @@ print (greet())
 
 #Hasil: siapa nama anda?
 ```
+## Aplikasi Batu Kertas Gunting (2)
+### Dari sini, kita akan menyelesaikan permainan Batu Kertas Gunting.
+Kita akan menambahkan function sehingga pengguna dapat bermain melawan komputer. Selain itu, kita juga akan belajar tentang `module`.
