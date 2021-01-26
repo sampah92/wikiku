@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T06:46:08.707Z
+date: 2021-01-26T06:47:16.206Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -163,3 +163,5 @@ print_hand(player_hand, player_name)
 ### Memvalidasi Nilai Input
 Sejauh ini, program kita menghasilkan erorr jika pengguna memasukkan nomor selain `0`, `1`, atau `2` sehingga kita perlu memvalidasinya.
 Untuk melakukannya, kita akan belajar topik selanjutnya, nilai return.
+### Apa itu Nilai Return?
+Saat kita ingin menggunakan hasil dari sebuah function, kita dapat menggunakan <kbd>return</kbd>. Pada contoh di bawah, function `add` menjadikan `3` dan `7` sebagai argument, dan mengembalikan `10` ke pemanggilnya.
