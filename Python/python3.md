@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T09:29:52.199Z
+date: 2021-01-26T09:34:19.479Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -315,4 +315,20 @@ Anda dapat mengimport sebuah module menggunakan sintaksis berikut: `import nama_
 Ekstensi dari file, `.py`, dapat di abaikan ketika Anda mengimportnya.
 ```python
 import utils    # import module utils
+```
+### Menggunakan Module
+Anda dapat memanggil function dari sebuah module dengan meletakkan nama module sebelum nama function, seperti `module_name.function_name()`.
+
+script.py
+```python
+import utils
+	.
+  .
+
+#Pisahkan nama module dengan titik!
+if utils.validate(player_hand):
+		computer = 1
+    utils.print_hand(player_hand, player_name)
+      .
+      .
 ```
