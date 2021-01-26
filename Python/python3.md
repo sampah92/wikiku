@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T09:07:16.395Z
+date: 2021-01-26T09:08:52.199Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -293,3 +293,4 @@ else:
 ### Membagi File
 Code pada file `script.py` kita sudah menjadi sangat panjang.
 Semakin panjang code Anda, akan semakin sulit untuk dibaca dan dimengerti, ini akan berpotensi menimbulkan bug yang tidak diinginkan. Untuk mencegah ini, mari belajar untuk membagi code ke beberapa file terpisah.
+### Menggunakan Module
