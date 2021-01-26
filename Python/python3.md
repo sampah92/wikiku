@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T09:47:54.395Z
+date: 2021-01-26T09:51:26.036Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -431,3 +431,17 @@ Mari kita coba menggunakan salah satu dari module yang sangat berguna ini.
           time()
           datetime()
       }
+```
+### Module Acak
+Kita akan mengacak tangan yang dipilih komputer menggunakan function `randint` dari module `random`.
+Dengan menulis `random.randint(x,y)`, Anda mendapat integer acak di antara `x` dan `y` inklusif.
+
+script.py
+```python
+import utils
+import random
+if utils.validate(player_hand):
+		computer_hand = random.randint(0, 2) dapatkan integer acak antara 0-2
+       .
+       .
+```
