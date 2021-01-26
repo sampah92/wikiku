@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T09:40:20.363Z
+date: 2021-01-26T09:45:23.611Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -411,3 +411,23 @@ Akhirnya, mari membuat permainan menjadi lebih menyenangkan dengan membuat acak 
 ### Library Standar Python
 Sebelumnya, kita belajar cara membuat module utils yang dibuat khusus. Python juga mempunyai daftar module bawaan yang dapat Anda gunakan, di dalam Library Standar Python.
 Mari kita coba menggunakan salah satu dari module yang sangat berguna ini.
+
+```mermaid
+ classDiagram
+       class Math{
+          sin()
+          cos()
+          tan()
+      }
+      
+       class Random{
+          random()
+          randint()
+          shuffle()
+      }
+      
+       class datetime{
+          date()
+          time()
+          datetime()
+      }
