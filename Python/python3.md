@@ -2,7 +2,7 @@
 title: Python III
 description: Pada pelajaran ini, kita akan belajar bagaimana cara menggunakan function dan module.
 published: true
-date: 2021-01-26T09:23:52.792Z
+date: 2021-01-26T09:29:52.199Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-24T17:24:54.095Z
@@ -217,6 +217,8 @@ Dari sini, kita akan menyelesaikan permainan Batu Kertas Gunting.
 Kita akan menambahkan function sehingga pengguna dapat bermain melawan komputer. Selain itu, kita juga akan belajar tentang `module`.
 ## Memilih Tangan
 Mari memulai dengan mencetak tangan yang dipilih oleh komputer.
+
+script.py
 ```python
 def validate(hand):
     if hand < 0 or hand > 2:
@@ -246,6 +248,8 @@ else:
 ```
 ## Menilai Pemenang
 Mari membuat function untuk menilai siapa yang memenangkan permainan.
+
+script.py
 ```python
 def validate(hand):
     if hand < 0 or hand > 2:
@@ -305,4 +309,10 @@ def print_hand(hand, name="tamu"):
 		.
     .
 def judge(player, computer):
+```
+### Import
+Anda dapat mengimport sebuah module menggunakan sintaksis berikut: `import nama_module`.
+Ekstensi dari file, `.py`, dapat di abaikan ketika Anda mengimportnya.
+```python
+import utils    # import module utils
 ```
