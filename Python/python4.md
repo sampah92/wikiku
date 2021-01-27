@@ -2,7 +2,7 @@
 title: Python IV
 description: mengenal konsep penting di Python yaitu class dan instance
 published: true
-date: 2021-01-27T13:22:53.695Z
+date: 2021-01-27T13:27:33.441Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T10:50:27.662Z
@@ -61,3 +61,4 @@ graph LR
            harga: $4
       }
 ```
+### 
