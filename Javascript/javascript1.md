@@ -2,7 +2,7 @@
 title: Javascript I
 description: Mempelajari dasar-dasar penulisan ES6 - versi baru JavaScript
 published: true
-date: 2021-01-27T23:11:19.667Z
+date: 2021-01-27T23:12:00.647Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T23:04:31.513Z
@@ -24,3 +24,7 @@ hello world
 ### console.log()
 Sekarang mari kita pelajari cara menulis code JS! <kbd>console.log()</kbd> mencetak rangkaian huruf yang diketik dalam tanda kurung.
 Kita menyebut karakter teks, seperti `Hello World`, sebagai `string`. Seperti yang dapat Anda lihat di bawah, Anda harus menggunakan tanda kutip tunggal atau ganda.
+```js
+console.log("hello world");
+console.log('hello world');
+```
