@@ -2,7 +2,7 @@
 title: Python IV
 description: mengenal konsep penting di Python yaitu class dan instance
 published: true
-date: 2021-01-27T11:57:22.463Z
+date: 2021-01-27T13:22:53.695Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T10:50:27.662Z
@@ -41,4 +41,23 @@ Blueprint diketahui sebagai `class`, dan object-nya disebut `instance`. Pastikan
 ```mermaid
 graph LR
     MenuItem[Blueprint<br>'class']---|Ciptakan 'object' dari blueprint|B[Object<br>'instance']
+```
+```mermaid
+ classDiagram
+      instance1 --|> EsJeruk
+      instance1 --|> KueLapis
+      class EsJeruk{
+           harga: $2
+      }
+            class KueLapis{
+           harga: $5
+      }
+            instance2 --|> Kopi
+      instance2 --|> KueCoklat
+      class Kopi{
+           harga: $3
+      }
+            class KueCoklat{
+           harga: $4
+      }
 ```
