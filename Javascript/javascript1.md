@@ -2,7 +2,7 @@
 title: Javascript I
 description: Mempelajari dasar-dasar penulisan ES6 - versi baru JavaScript
 published: true
-date: 2021-01-27T23:23:42.716Z
+date: 2021-01-27T23:24:42.073Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T23:04:31.513Z
@@ -66,3 +66,9 @@ console.log("5 + 2");
 ## Kalkulasi (2)
 ### Pengalian dan Pembagian
 Mari kita pelajari cara kalkulasi selain penambahan dan pengurangan! Seperti yang Anda lihat di bawah, `tanda bintang` <kbd>*</kbd> dapat digunakan untuk pengalian dan `garis miring kanan` <kbd>/</kbd> dapat digunakan untuk pembagian. Simbol ini berbeda dari simbol yang digunakan dalam matematika standar, jadi pastikan untuk diingat!
+```js
+console.log(3 * 5);
+console.log(8 / 2);
+```
+15
+4
