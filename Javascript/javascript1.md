@@ -2,7 +2,7 @@
 title: Javascript I
 description: Mempelajari dasar-dasar penulisan ES6 - versi baru JavaScript
 published: true
-date: 2021-01-27T23:17:22.472Z
+date: 2021-01-27T23:20:47.162Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T23:04:31.513Z
@@ -42,3 +42,21 @@ Komentar berguna untuk memberikan catatan dan menjelaskan code Anda, sebagai pen
 ## Kalkulasi (1)
 ### Angka dan Kalkulasi
 Anda juga dapat menggunakan integer (angka) dalam pemrograman. Berbeda dengan string, Anda tidak perlu menggunakan kutipan untuk integer. Integer digunakan untuk melakukan kalkulasi seperti penambahan dan pengurangan. Gunakan <kbd>+</kbd> untuk penambahan dan <kbd>-</kbd> untuk pengurangan.
+```js
+console.log(3);
+console.log(1 + 3);
+console.log(2 - 1);
+```
+3
+4
+1
+
+### String dan Integer
+Seperti contoh di bawah, <kbd>console.log(5 + 2);</kbd> akan mencetak hasil penambahan, yaitu 7. Disisi lain, saat Anda meletakkan <kbd>5 + 2</kbd> dalam tanda kutip, ini akan dicetak sebagai string. Harap diingat bahwa `string` dan `integer` adalah tipe data yang berbeda!
+```js
+//integer
+console.log(5 + 2);
+
+//string
+console.log("5 + 2");
+```
