@@ -2,7 +2,7 @@
 title: Python IV
 description: mengenal konsep penting di Python yaitu class dan instance
 published: true
-date: 2021-01-27T11:04:22.956Z
+date: 2021-01-27T11:07:42.004Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T10:50:27.662Z
@@ -38,4 +38,3 @@ item menu memiliki detail seperti `nama` dan `harga` seperti ditunjukkan pada ga
 ### Membuat Object
 Untuk membuat object untuk item-item pada menu, terlebih dahulu kita harus menyiapkan `blueprint`.
 Blueprint diketahui sebagai `class`, dan object-nya disebut `instance`. Pastikan Anda mengingat istilah ini ya!
-W
