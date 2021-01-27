@@ -2,7 +2,7 @@
 title: Javascript I
 description: Mempelajari dasar-dasar penulisan ES6 - versi baru JavaScript
 published: true
-date: 2021-01-27T23:12:46.084Z
+date: 2021-01-27T23:15:40.917Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T23:04:31.513Z
@@ -31,3 +31,10 @@ console.log('hello world');
 
 ### Tanda titik koma
 Setiap pernyataan harus diakhiri dengan tanda titik koma <kbd>;</kbd>. Tanpa diakhiri titik koma, disebagian besar kasus, code tersebut akan berfungsi secara normal, namun kami sarankan agar anda selalu menyertakanya untuk membiasakan diri bercoding secara rapi dan jelas.
+
+### Cara Memberi Komentar Pada Code
+Menulis <kbd>//</kbd> di awal baris akan menjadikan baris tersebut sebagai `komentar`. Artinya, baris ini akan diabaikan saat code dijalankan.
+Komentar berguna untuk memberikan catatan dan menjelaskan code Anda, sebagai pengingat pada saat anda mau memperbaruinya ataupun untuk mempermudah tim anda dalam melanjutkan code Anda.
+```js
+//console.log("hello world");
+```
