@@ -2,7 +2,7 @@
 title: Javascript I
 description: Mempelajari dasar-dasar penulisan ES6 - versi baru JavaScript
 published: true
-date: 2021-01-27T23:29:47.844Z
+date: 2021-01-27T23:33:27.836Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T23:04:31.513Z
@@ -82,5 +82,11 @@ console.log( 9 % 2);
 
 ## Menggabungkan String
 ### Menggabungkan String
+Simbol <kbd>+</kbd> juga dapat digunakan untuk mengkombinasikan (atau "`menggabungkan`") string. Seperti yang di tampilkan di bawah, "Mas" + " Mus" di cetak sebagai string `Mas Mus`.
+```js
+console.log("Mas" + " Mus")
+```
+Mas Mus
+
 
 
