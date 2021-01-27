@@ -2,7 +2,7 @@
 title: Javascript I
 description: Mempelajari dasar-dasar penulisan ES6 - versi baru JavaScript
 published: true
-date: 2021-01-27T23:15:40.917Z
+date: 2021-01-27T23:17:22.472Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T23:04:31.513Z
@@ -38,3 +38,7 @@ Komentar berguna untuk memberikan catatan dan menjelaskan code Anda, sebagai pen
 ```js
 //console.log("hello world");
 ```
+
+## Kalkulasi (1)
+### Angka dan Kalkulasi
+Anda juga dapat menggunakan integer (angka) dalam pemrograman. Berbeda dengan string, Anda tidak perlu menggunakan kutipan untuk integer. Integer digunakan untuk melakukan kalkulasi seperti penambahan dan pengurangan. Gunakan <kbd>+</kbd> untuk penambahan dan <kbd>-</kbd> untuk pengurangan.
