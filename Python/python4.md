@@ -2,7 +2,7 @@
 title: Python IV
 description: mengenal konsep penting di Python yaitu class dan instance
 published: true
-date: 2021-01-27T11:56:50.763Z
+date: 2021-01-27T11:57:22.463Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T10:50:27.662Z
@@ -40,5 +40,5 @@ Untuk membuat object untuk item-item pada menu, terlebih dahulu kita harus menyi
 Blueprint diketahui sebagai `class`, dan object-nya disebut `instance`. Pastikan Anda mengingat istilah ini ya!
 ```mermaid
 graph LR
-    MenuItem[Blueprint<br>'class']---|Ciptakan 'object' dari blueprint|B['Object'<br>instance]
+    MenuItem[Blueprint<br>'class']---|Ciptakan 'object' dari blueprint|B[Object<br>'instance']
 ```
