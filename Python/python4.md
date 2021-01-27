@@ -2,7 +2,7 @@
 title: Python IV
 description: mengenal konsep penting di Python yaitu class dan instance
 published: true
-date: 2021-01-27T11:12:18.599Z
+date: 2021-01-27T11:56:50.763Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-27T10:50:27.662Z
@@ -22,7 +22,7 @@ item menu memiliki detail seperti `nama` dan `harga` seperti ditunjukkan pada ga
 			Menu1 --|> Deskripsi
        Menu2 --|> Deskripsi
       class Deskripsi{
-          Setiap item 
+          Setiap item
           menu memiliki 
           'nama' dan 'harga'
       }
