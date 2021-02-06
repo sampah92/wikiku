@@ -2,7 +2,7 @@
 title: Kroki
 description: Membuat diagram dari deskripsi tekstual!
 published: true
-date: 2021-02-06T13:49:09.935Z
+date: 2021-02-06T13:50:36.935Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-06T13:25:35.819Z
@@ -30,6 +30,7 @@ dateCreated: 2021-02-06T13:25:35.819Z
 - [UMLet](https://www.umlet.com/)
 - [Vega](https://vega.github.io/vega/)
 - [Vega-Lite](https://vega.github.io/vega-lite/docs/selection.html)
+- [Wavedrom](https://wavedrom.com/)
 
 dan banyak lagi yang akan datang!
 
