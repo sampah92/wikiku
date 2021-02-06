@@ -2,14 +2,14 @@
 title: Untitled Page
 description: 
 published: true
-date: 2021-02-06T12:40:50.643Z
+date: 2021-02-06T12:41:11.612Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-06T12:27:05.198Z
 ---
 
 ```kroki
-byteField
+bytefield
 
 (defattrs :bg-green {:fill "#a0ffa0"})
 (defattrs :bg-yellow {:fill "#ffffa0"})
