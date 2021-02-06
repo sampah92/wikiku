@@ -2,7 +2,7 @@
 title: Kroki
 description: Membuat diagram dari deskripsi tekstual!
 published: true
-date: 2021-02-06T13:44:51.498Z
+date: 2021-02-06T13:49:09.935Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-06T13:25:35.819Z
@@ -34,22 +34,26 @@ dateCreated: 2021-02-06T13:25:35.819Z
 dan banyak lagi yang akan datang!
 
 # Fitur
-> Siap digunakan
+> `Siap digunakan`
+<font size="2"> Pustaka diagram ditulis dalam berbagai bahasa: Haskell, Python, JavaScript, Go, PHP, Java... beberapa juga memiliki ikatan C.</font>
 {.is-success}
 
-Pustaka diagram ditulis dalam berbagai bahasa: Haskell, Python, JavaScript, Go, PHP, Java... beberapa juga memiliki ikatan C.
+
 > Sederhana
+<font size="2">Kroki menyediakan API terpadu untuk semua library diagram. Pelajari sekali gunakan diagram di mana saja!</font>
 {.is-success}
 
-Kroki menyediakan API terpadu untuk semua library diagram. Pelajari sekali gunakan diagram di mana saja!
+
 > Sumber gratis &amp; terbuka
+<font size="2">Semua kode tersedia di GitHub dan tujuan kami adalah untuk menyediakan Kroki sebagai layanan gratis.</font>
 {.is-success}
 
-Semua kode tersedia di GitHub dan tujuan kami adalah untuk menyediakan Kroki sebagai layanan gratis.
+
 > Cepat
+<font size="2">Dibangun menggunakan arsitektur modern, Kroki menawarkan performa yang luar biasa.</font>
 {.is-success}
 
-Dibangun menggunakan arsitektur modern, Kroki menawarkan performa yang luar biasa.
+
 
 # Diagram Tipe
 | Diagram Type     | png | svg | jpeg | pdf | base64 |
