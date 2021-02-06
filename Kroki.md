@@ -2,7 +2,7 @@
 title: Kroki
 description: Membuat diagram dari deskripsi tekstual!
 published: true
-date: 2021-02-06T13:25:35.819Z
+date: 2021-02-06T13:33:15.127Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-06T13:25:35.819Z
@@ -20,15 +20,15 @@ dateCreated: 2021-02-06T13:25:35.819Z
 - Bytefield
 - [C4 (dengan PlantUML](https://c4model.com/)
 - [Ditaa](https://plantuml.com/ditaa)
-- Erd
-- Excalidraw
-- GraphViz
-- Mermaid
-- Nomnoml
-- PlantUML
-- SvgBob
-- UMLet
-- Vega
-- Vega-Lite
+- [Erd](https://www.smartdraw.com/entity-relationship-diagram/)
+- [Excalidraw](https://excalidraw.com/)
+- [GraphViz](https://graphviz.org/)
+- [Mermaid](https://mermaid-js.github.io/mermaid/#/)
+- [Nomnoml](https://rstudio.github.io/nomnoml/)
+- [PlantUML](https://plantuml.com/)
+- [SvgBob](https://ivanceras.github.io/content/Svgbob/Specification.html)
+- [UMLet](https://www.umlet.com/)
+- [Vega](https://vega.github.io/vega/)
+- [Vega-Lite](https://vega.github.io/vega-lite/docs/selection.html)
 
 dan banyak lagi yang akan datang!
