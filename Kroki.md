@@ -2,7 +2,7 @@
 title: Kroki
 description: Membuat diagram dari deskripsi tekstual!
 published: true
-date: 2021-02-06T13:33:15.127Z
+date: 2021-02-06T13:41:02.876Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-06T13:25:35.819Z
@@ -14,9 +14,9 @@ dateCreated: 2021-02-06T13:25:35.819Z
 - [SeqDiag](http://blockdiag.com/en/seqdiag/index.html)
 - [ActDiag](http://blockdiag.com/en/actdiag/index.html)
 - [NwDiag](http://blockdiag.com/en/nwdiag/)
-- PacketDiag
+- [PacketDiag](http://blockdiag.com/en/packetdiag/index.html)
 - [RackDiag](http://blockdiag.com/en/nwdiag/rackdiag-examples.html)
-- BPMN
+- [BPMN](https://bpmn.io/)
 - Bytefield
 - [C4 (dengan PlantUML](https://c4model.com/)
 - [Ditaa](https://plantuml.com/ditaa)
@@ -32,3 +32,46 @@ dateCreated: 2021-02-06T13:25:35.819Z
 - [Vega-Lite](https://vega.github.io/vega-lite/docs/selection.html)
 
 dan banyak lagi yang akan datang!
+
+# Fitur
+> Siap digunakan
+{.is-success}
+
+Pustaka diagram ditulis dalam berbagai bahasa: Haskell, Python, JavaScript, Go, PHP, Java... beberapa juga memiliki ikatan C.
+> Sederhana
+{.is-success}
+
+Kroki menyediakan API terpadu untuk semua library diagram. Pelajari sekali gunakan diagram di mana saja!
+> Sumber gratis &amp; terbuka
+{.is-success}
+
+Semua kode tersedia di GitHub dan tujuan kami adalah untuk menyediakan Kroki sebagai layanan gratis.
+> Cepat
+{.is-success}
+
+Dibangun menggunakan arsitektur modern, Kroki menawarkan performa yang luar biasa.
+
+# Diagram Tipe
+| Diagram Type     | png | svg | jpeg | pdf | base64 |
+|------------------|-----|-----|------|-----|--------|
+| BlockDiag        | ✔️   | ✔️   |      | ✔️   | ️       |
+| BPMN             | ️    | ✔️   |      | ️    | ️       |
+| Bytefield        | ️    | ✔️   |      | ️    | ️       |
+| SeqDiag          | ✔️   | ✔️   |      | ✔️   | ️       |
+| ActDiag          | ✔️   | ✔️   |      | ✔️   | ️       |
+| NwDiag           | ✔️   | ✔️   |      | ✔️   | ️       |
+| PacketDiag       | ✔️   | ✔️   |      | ✔️   | ️       |
+| RackDiag         | ✔️   | ✔️   |      | ✔️   | ️       |
+| C4 with PlantUML | ✔️   | ✔️   | ✔️    | ️    | ✔️      |
+| Ditaa            | ✔️   | ✔️   |      | ️    | ️       |
+| Erd              | ✔️   | ✔️   | ✔️    | ✔️   | ️       |
+| Excalidraw       | ️    | ✔️   | ️     | ️    | ️       |
+| GraphViz         | ✔️   | ✔️   | ✔️    | ✔️   |        |
+| Mermaid          |     | ✔️   |      |     |        |
+| Nomnoml          | ️    | ✔️   | ️     |     |        |
+| PlantUML         | ✔️   | ✔️   | ✔️    | ️    | ✔️      |
+| Svgbob           | ️    | ✔️   | ️     | ️    |        |
+| UMlet            | ✔️   | ✔️   | ✔️    | ️    |        |
+| Vega             | ✔️   | ✔️   |      | ✔️   | ️       |
+| Vega-Lite        | ✔️   | ✔️   |      | ✔️   | ️       |
+| WaveDrom         |     | ✔️   |      |     | ️       |
