@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2021-02-06T12:35:07.804Z
+date: 2021-02-06T12:35:37.788Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-06T12:27:05.198Z
@@ -11,11 +11,13 @@ dateCreated: 2021-02-06T12:27:05.198Z
 ```kroki
 mermaid
 
-graph TD
-  A[ Anyone ] -->|Can help | B( Go to github.com/yuzutech/kroki )
-  B --> C{ How to contribute? }
-  C --> D[ Reporting bugs ]
-  C --> E[ Sharing ideas ]
-  C --> F[ Advocating ]
+blockdiag {
+  Kroki -> generates -> "Block diagrams";
+  Kroki -> is -> "very easy!";
+
+  Kroki [color = "greenyellow"];
+  "Block diagrams" [color = "pink"];
+  "very easy!" [color = "orange"];
+}
 ```
 $
