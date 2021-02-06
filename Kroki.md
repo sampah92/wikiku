@@ -2,7 +2,7 @@
 title: Kroki
 description: Membuat diagram dari deskripsi tekstual!
 published: true
-date: 2021-02-06T13:41:02.876Z
+date: 2021-02-06T13:44:51.498Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-06T13:25:35.819Z
@@ -75,3 +75,28 @@ Dibangun menggunakan arsitektur modern, Kroki menawarkan performa yang luar bias
 | Vega             | ✔️   | ✔️   |      | ✔️   | ️       |
 | Vega-Lite        | ✔️   | ✔️   |      | ✔️   | ️       |
 | WaveDrom         |     | ✔️   |      |     | ️       |
+
+# Penggunaan
+<p> ```kroki
+<br>mermaid
+
+graph TD
+  A[ Anyone ] -->|Can help | B( Go to github.com/yuzutech/kroki )
+  B --> C{ How to contribute? }
+  C --> D[ Reporting bugs ]
+  C --> E[ Sharing ideas ]
+  C --> F[ Advocating ]
+<p>```</p>
+<br>
+
+- hasil
+```kroki
+mermaid
+
+graph TD
+  A[ Anyone ] -->|Can help | B( Go to github.com/yuzutech/kroki )
+  B --> C{ How to contribute? }
+  C --> D[ Reporting bugs ]
+  C --> E[ Sharing ideas ]
+  C --> F[ Advocating ]
+```
