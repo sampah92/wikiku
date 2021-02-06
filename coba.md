@@ -2,14 +2,13 @@
 title: Untitled Page
 description: 
 published: true
-date: 2021-02-06T12:35:37.788Z
+date: 2021-02-06T12:38:38.938Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-06T12:27:05.198Z
 ---
 
 ```kroki
-mermaid
 
 blockdiag {
   Kroki -> generates -> "Block diagrams";
