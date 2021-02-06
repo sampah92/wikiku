@@ -2,7 +2,7 @@
 title: Kroki
 description: Membuat diagram dari deskripsi tekstual!
 published: true
-date: 2021-02-06T13:50:36.935Z
+date: 2021-02-06T13:51:16.261Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-06T13:25:35.819Z
@@ -40,17 +40,17 @@ dan banyak lagi yang akan datang!
 {.is-success}
 
 
-> Sederhana
+> `Sederhana`
 <font size="2">Kroki menyediakan API terpadu untuk semua library diagram. Pelajari sekali gunakan diagram di mana saja!</font>
 {.is-success}
 
 
-> Sumber gratis &amp; terbuka
+> `Sumber gratis & terbuka`
 <font size="2">Semua kode tersedia di GitHub dan tujuan kami adalah untuk menyediakan Kroki sebagai layanan gratis.</font>
 {.is-success}
 
 
-> Cepat
+> `Cepat`
 <font size="2">Dibangun menggunakan arsitektur modern, Kroki menawarkan performa yang luar biasa.</font>
 {.is-success}
 
