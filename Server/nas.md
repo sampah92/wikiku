@@ -2,7 +2,7 @@
 title: NAS - Network-attach Storage
 description: 
 published: true
-date: 2021-04-29T02:12:41.825Z
+date: 2021-04-29T02:13:15.665Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T02:12:41.825Z
@@ -25,7 +25,7 @@ Keuntungan menggunakan NAS yang utama adalah kemudahan mengakses dan backup data
 
 Kesimpulannya, NAS menawarkan cara yang lebih mudah, skalabel serta aman dalam menyimpan dan berbagi-pakai file dalam jaringan.
 
-# Perangkat Keras
+# Spesifikasi Perangkat Keras
 [FreeNas dan TrueNas](https://www.freenas.org/hardware-requirements/)
 
 # Perangkat Lunak
