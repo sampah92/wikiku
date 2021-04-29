@@ -2,7 +2,7 @@
 title: NAS - Network-attach Storage
 description: 
 published: true
-date: 2021-04-29T02:13:15.665Z
+date: 2021-04-29T02:14:35.800Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T02:12:41.825Z
@@ -26,10 +26,13 @@ Keuntungan menggunakan NAS yang utama adalah kemudahan mengakses dan backup data
 Kesimpulannya, NAS menawarkan cara yang lebih mudah, skalabel serta aman dalam menyimpan dan berbagi-pakai file dalam jaringan.
 
 # Spesifikasi Perangkat Keras
-[FreeNas dan TrueNas](https://www.freenas.org/hardware-requirements/)
+Untuk acuan spesifikasi perangkat bisa menggunakan tautan berikut [FreeNas dan TrueNas](https://www.freenas.org/hardware-requirements/)
 
 # Perangkat Lunak
 - [FreeNAS OS]
 - [OpenMediaVault NAS software OS]
 - [XigmaNAS (formerly NAS4Free)]
 - [Rockstor – Centos based Linux NAS solution]
+
+# Instalasi
+Semua tergantung Perangkat lunak yang digunakan
